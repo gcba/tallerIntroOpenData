@@ -24,7 +24,7 @@ public JSONObject getFeed() {
 public void printFeed(JSONObject weatherFeed) {
   JSONArray weather = weatherFeed.getJSONArray("feeds");
   JSONObject lastWeather = weather.getJSONObject(weather.size() - 1);
-  String info = "La Plata\nTemperatura " + lastWeather.getString("field1") + "\nHumedad " + lastWeather.getString("field2") + "\nPresion " + lastWeather.getString("field3");
+  String info = "La Plata\nTemperatura " + lastWeather.getString("field1") + " °\nHumedad " + lastWeather.getString("field2") + " %\nPresion " + lastWeather.getString("field3") + " hPa";
   background(0);
   text(info, width/2, height/2);
 }
