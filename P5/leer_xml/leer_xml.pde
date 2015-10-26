@@ -4,12 +4,12 @@ public void setup() {
   noStroke();
   fill(255);
   textSize(20);
-}
-
-public void draw() {
   background(0);
   textAlign(CENTER);
   text("CARGANDO...", width/2, height/2);
+}
+
+public void draw() {
   XML[] stations = getStations();
   printInfo(stations);
 }
