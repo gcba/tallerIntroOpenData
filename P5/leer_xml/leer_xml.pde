@@ -1,22 +1,17 @@
 public void setup() {
-  size(800, 450);
+  size(960, 540);
   noLoop();
   noStroke();
   fill(255);
+  textSize(20);
 }
 
 public void draw() {
   background(0);
   textAlign(CENTER);
   text("CARGANDO...", width/2, height/2);
-  
   XML[] stations = getStations();
-  textAlign(LEFT);
-  for (int i=0; i<stations.length; i++) {
-    String name = stations[i].getChild("EstacionNombre").getContent();
-    String availableBikes = stations[i].getChild("BicicletaDisponibles").getContent();
-    println(name + " " + availableBikes);
-  }
+  printInfo(stations);
 }
 
 public XML[] getStations() {
@@ -25,4 +20,29 @@ public XML[] getStations() {
   XML xml = parseXML(response[0]);
   XML stations[] = xml.getChild("soap:Body").getChild("BicicletasWSResponse").getChild("BicicletasWSResult").getChild("Bicicletas").getChild("Estaciones").getChildren("Estacion");
   return stations;
+}
+
+public void printInfo(XML[] stations) {
+  textAlign(LEFT, TOP);
+  background(0);
+  int xOffset = 10;
+  int yOffset = 10;
+  ArrayList<String> lines = new ArrayList<String>();
+  String currentLine = stations[0].getChild("EstacionNombre").getContent() + " " + stations[0].getChild("BicicletaDisponibles").getContent();
+  for (int i=1; i<stations.length; i++) {
+    String name = stations[i].getChild("EstacionNombre").getContent();
+    String availableBikes = stations[i].getChild("BicicletaDisponibles").getContent();
+    String newInfo = name + " " + availableBikes;
+    if (textWidth(currentLine) + textWidth("  ") + textWidth(newInfo) + 2*xOffset < width) {
+      currentLine += "  " + newInfo;
+    } else {
+      lines.add(currentLine);
+      currentLine = newInfo;
+    }
+  }
+  String info = "";
+  for (int i=0; i<lines.size(); i++) {
+    info += lines.get(i) + "\n";
+  }
+  text(info, xOffset, yOffset);
 }
