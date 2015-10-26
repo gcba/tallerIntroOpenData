@@ -40,6 +40,7 @@ public void printInfo(XML[] stations) {
       currentLine = newInfo;
     }
   }
+  lines.add(currentLine);
   String info = "";
   for (int i=0; i<lines.size(); i++) {
     info += lines.get(i) + "\n";
