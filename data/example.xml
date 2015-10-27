@@ -1,0 +1,1141 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <soap:Body>
+        <BicicletasWSResponse xmlns="http://tempuri.org/">
+            <BicicletasWSResult>
+                <Bicicletas xmlns="http://bicis.buenosaires.gob.ar/ServiceBicycle.asmx">
+                    <Estaciones>
+                        <Estacion>
+                            <EstacionId>1</EstacionId>
+                            <EstacionNombre>Facultad de Derecho</EstacionNombre>
+                            <BicicletaDisponibles>2</BicicletaDisponibles>
+                            <EstacionDisponible>SI</EstacionDisponible>
+                            <Latitud>-34.583271</Latitud>
+                            <Longitud>-58.392579</Longitud>
+                            <Numero>2260</Numero>
+                            <Lugar>Figueroa Alcorta y Pueyrredón</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>28</AnclajesTotales>
+                            <AnclajesDisponibles>26</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>2</EstacionId>
+                            <EstacionNombre>Retiro</EstacionNombre>
+                            <BicicletaDisponibles>0</BicicletaDisponibles>
+                            <EstacionDisponible>SI</EstacionDisponible>
+                            <Latitud>-34.592966</Latitud>
+                            <Longitud>-58.374379</Longitud>
+                            <Numero>0</Numero>
+                            <Lugar>Libertador altura Retiro</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>20</AnclajesTotales>
+                            <AnclajesDisponibles>20</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>3</EstacionId>
+                            <EstacionNombre>Aduana</EstacionNombre>
+                            <BicicletaDisponibles>0</BicicletaDisponibles>
+                            <EstacionDisponible>SI</EstacionDisponible>
+                            <Latitud>-34.611376</Latitud>
+                            <Longitud>-58.369009</Longitud>
+                            <Numero>0</Numero>
+                            <Lugar>Moreno y Paseo Colón</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>20</AnclajesTotales>
+                            <AnclajesDisponibles>20</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>4</EstacionId>
+                            <EstacionNombre>Plaza Roma</EstacionNombre>
+                            <BicicletaDisponibles>1</BicicletaDisponibles>
+                            <EstacionDisponible>SI</EstacionDisponible>
+                            <Latitud>-34.601714</Latitud>
+                            <Longitud>-58.369202</Longitud>
+                            <Numero>0</Numero>
+                            <Lugar>Lavalle y Bouchard</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>20</AnclajesTotales>
+                            <AnclajesDisponibles>19</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>5</EstacionId>
+                            <EstacionNombre>Plaza Italia</EstacionNombre>
+                            <BicicletaDisponibles>0</BicicletaDisponibles>
+                            <EstacionDisponible>SI</EstacionDisponible>
+                            <Latitud>-34.580563</Latitud>
+                            <Longitud>-58.420605</Longitud>
+                            <Numero>2601</Numero>
+                            <Lugar>Plaza Italia</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>28</AnclajesTotales>
+                            <AnclajesDisponibles>28</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>6</EstacionId>
+                            <EstacionNombre>Parque Lezama</EstacionNombre>
+                            <BicicletaDisponibles>2</BicicletaDisponibles>
+                            <EstacionDisponible>SI</EstacionDisponible>
+                            <Latitud>-34.628233</Latitud>
+                            <Longitud>-58.369606</Longitud>
+                            <Numero>0</Numero>
+                            <Lugar>Martín García e Irala</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>20</AnclajesTotales>
+                            <AnclajesDisponibles>18</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>7</EstacionId>
+                            <EstacionNombre>Obelisco</EstacionNombre>
+                            <BicicletaDisponibles>0</BicicletaDisponibles>
+                            <EstacionDisponible>SI</EstacionDisponible>
+                            <Latitud>-34.605997</Latitud>
+                            <Longitud>-58.38098</Longitud>
+                            <Numero>200</Numero>
+                            <Lugar>Perón y Carlos Pellegrini</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>16</AnclajesTotales>
+                            <AnclajesDisponibles>16</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>8</EstacionId>
+                            <EstacionNombre>Congreso</EstacionNombre>
+                            <BicicletaDisponibles>2</BicicletaDisponibles>
+                            <EstacionDisponible>SI</EstacionDisponible>
+                            <Latitud>-34.609733</Latitud>
+                            <Longitud>-58.389253</Longitud>
+                            <Numero>0</Numero>
+                            <Lugar>Virrey Cevallos e Hipólito Yrigoyen</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>28</AnclajesTotales>
+                            <AnclajesDisponibles>26</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>9</EstacionId>
+                            <EstacionNombre>Parque Las Heras</EstacionNombre>
+                            <BicicletaDisponibles>3</BicicletaDisponibles>
+                            <EstacionDisponible>SI</EstacionDisponible>
+                            <Latitud>-34.585744</Latitud>
+                            <Longitud>-58.408005</Longitud>
+                            <Numero>0</Numero>
+                            <Lugar>Coronel Díaz y French</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>28</AnclajesTotales>
+                            <AnclajesDisponibles>25</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>10</EstacionId>
+                            <EstacionNombre>Madero UCA</EstacionNombre>
+                            <BicicletaDisponibles>0</BicicletaDisponibles>
+                            <EstacionDisponible>SI</EstacionDisponible>
+                            <Latitud>-34.616106</Latitud>
+                            <Longitud>-58.366017</Longitud>
+                            <Numero>0</Numero>
+                            <Lugar>Alicia Moreau de Justo altura Independencia</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>20</AnclajesTotales>
+                            <AnclajesDisponibles>20</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>11</EstacionId>
+                            <EstacionNombre>Tribunales</EstacionNombre>
+                            <BicicletaDisponibles>0</BicicletaDisponibles>
+                            <EstacionDisponible>SI</EstacionDisponible>
+                            <Latitud>-34.601343</Latitud>
+                            <Longitud>-58.385250</Longitud>
+                            <Numero>0</Numero>
+                            <Lugar>Talcahuano y Tucumán</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>20</AnclajesTotales>
+                            <AnclajesDisponibles>20</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>12</EstacionId>
+                            <EstacionNombre>Plaza Vicente López</EstacionNombre>
+                            <BicicletaDisponibles>1</BicicletaDisponibles>
+                            <EstacionDisponible>SI</EstacionDisponible>
+                            <Latitud>-34.592583</Latitud>
+                            <Longitud>-58.388965</Longitud>
+                            <Numero>0</Numero>
+                            <Lugar>Paraná y Juncal</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>16</AnclajesTotales>
+                            <AnclajesDisponibles>15</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>13</EstacionId>
+                            <EstacionNombre>Once</EstacionNombre>
+                            <BicicletaDisponibles>1</BicicletaDisponibles>
+                            <EstacionDisponible>SI</EstacionDisponible>
+                            <Latitud>-34.609881</Latitud>
+                            <Longitud>-58.406346</Longitud>
+                            <Numero>0</Numero>
+                            <Lugar>Pueyrredón y Rivadavia</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>28</AnclajesTotales>
+                            <AnclajesDisponibles>27</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>14</EstacionId>
+                            <EstacionNombre>Pacífico</EstacionNombre>
+                            <BicicletaDisponibles>0</BicicletaDisponibles>
+                            <EstacionDisponible>SI</EstacionDisponible>
+                            <Latitud>-34.578112</Latitud>
+                            <Longitud>-58.426416</Longitud>
+                            <Numero>0</Numero>
+                            <Lugar>Santa Fe y Bullrich</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>21</AnclajesTotales>
+                            <AnclajesDisponibles>21</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>15</EstacionId>
+                            <EstacionNombre>Cochabamba</EstacionNombre>
+                            <BicicletaDisponibles>0</BicicletaDisponibles>
+                            <EstacionDisponible>NO</EstacionDisponible>
+                            <Latitud/>
+                            <Longitud/>
+                            <Numero>0</Numero>
+                            <Lugar>Cochabamba y Virrey Cevallos</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>20</AnclajesTotales>
+                            <AnclajesDisponibles>20</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>16</EstacionId>
+                            <EstacionNombre>Legislatura</EstacionNombre>
+                            <BicicletaDisponibles>0</BicicletaDisponibles>
+                            <EstacionDisponible>SI</EstacionDisponible>
+                            <Latitud>-34.610158</Latitud>
+                            <Longitud>-58.374814</Longitud>
+                            <Numero>0</Numero>
+                            <Lugar>Perú y Diagonal Sur</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>20</AnclajesTotales>
+                            <AnclajesDisponibles>20</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>17</EstacionId>
+                            <EstacionNombre>Plaza Almagro</EstacionNombre>
+                            <BicicletaDisponibles>1</BicicletaDisponibles>
+                            <EstacionDisponible>SI</EstacionDisponible>
+                            <Latitud>-34.606463</Latitud>
+                            <Longitud>-58.418705</Longitud>
+                            <Numero>0</Numero>
+                            <Lugar>Bulnes y Perón</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>20</AnclajesTotales>
+                            <AnclajesDisponibles>19</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>18</EstacionId>
+                            <EstacionNombre>Independencia</EstacionNombre>
+                            <BicicletaDisponibles>3</BicicletaDisponibles>
+                            <EstacionDisponible>SI</EstacionDisponible>
+                            <Latitud>-34.617690</Latitud>
+                            <Longitud>-58.380473</Longitud>
+                            <Numero>0</Numero>
+                            <Lugar>Independencia y Bernardo de Irigoyen</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>20</AnclajesTotales>
+                            <AnclajesDisponibles>17</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>19</EstacionId>
+                            <EstacionNombre>Plaza San Martín</EstacionNombre>
+                            <BicicletaDisponibles>1</BicicletaDisponibles>
+                            <EstacionDisponible>SI</EstacionDisponible>
+                            <Latitud>-34.595593</Latitud>
+                            <Longitud>-58.376986</Longitud>
+                            <Numero>750</Numero>
+                            <Lugar>Santa Fe y Maipú</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>28</AnclajesTotales>
+                            <AnclajesDisponibles>27</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>20</EstacionId>
+                            <EstacionNombre>Distrito Audiovisual</EstacionNombre>
+                            <BicicletaDisponibles>0</BicicletaDisponibles>
+                            <EstacionDisponible>SI</EstacionDisponible>
+                            <Latitud>-34.579996</Latitud>
+                            <Longitud>-58.441615</Longitud>
+                            <Numero>0</Numero>
+                            <Lugar>Dorrego y Zapiola</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>20</AnclajesTotales>
+                            <AnclajesDisponibles>20</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>21</EstacionId>
+                            <EstacionNombre>Parque Patricios</EstacionNombre>
+                            <BicicletaDisponibles>1</BicicletaDisponibles>
+                            <EstacionDisponible>SI</EstacionDisponible>
+                            <Latitud>-34.640112</Latitud>
+                            <Longitud>-58.406552</Longitud>
+                            <Numero>0</Numero>
+                            <Lugar>Iguazú y Uspallata</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>28</AnclajesTotales>
+                            <AnclajesDisponibles>27</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>22</EstacionId>
+                            <EstacionNombre>Arenales</EstacionNombre>
+                            <BicicletaDisponibles>0</BicicletaDisponibles>
+                            <EstacionDisponible>SI</EstacionDisponible>
+                            <Latitud>-34.594087</Latitud>
+                            <Longitud>-58.382662</Longitud>
+                            <Numero>0</Numero>
+                            <Lugar>Arenales y Cerrito</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>20</AnclajesTotales>
+                            <AnclajesDisponibles>20</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>23</EstacionId>
+                            <EstacionNombre>Suipacha</EstacionNombre>
+                            <BicicletaDisponibles>0</BicicletaDisponibles>
+                            <EstacionDisponible>SI</EstacionDisponible>
+                            <Latitud>-34.600140</Latitud>
+                            <Longitud>-58.379679</Longitud>
+                            <Numero>0</Numero>
+                            <Lugar>Suipacha y Viamonte</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>14</AnclajesTotales>
+                            <AnclajesDisponibles>14</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>24</EstacionId>
+                            <EstacionNombre>Alsina</EstacionNombre>
+                            <BicicletaDisponibles>0</BicicletaDisponibles>
+                            <EstacionDisponible>SI</EstacionDisponible>
+                            <Latitud>-34.610656</Latitud>
+                            <Longitud>-58.380845</Longitud>
+                            <Numero>0</Numero>
+                            <Lugar>Alsina y Bernardo de Irigoyen</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>21</AnclajesTotales>
+                            <AnclajesDisponibles>21</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>25</EstacionId>
+                            <EstacionNombre>Plaza Güemes</EstacionNombre>
+                            <BicicletaDisponibles>0</BicicletaDisponibles>
+                            <EstacionDisponible>SI</EstacionDisponible>
+                            <Latitud>-34.589340</Latitud>
+                            <Longitud>-58.416322</Longitud>
+                            <Numero>0</Numero>
+                            <Lugar>Salguero y Mansilla</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>21</AnclajesTotales>
+                            <AnclajesDisponibles>21</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>26</EstacionId>
+                            <EstacionNombre>Juana Manso</EstacionNombre>
+                            <BicicletaDisponibles>0</BicicletaDisponibles>
+                            <EstacionDisponible>SI</EstacionDisponible>
+                            <Latitud>-34.600525</Latitud>
+                            <Longitud>-58.363645</Longitud>
+                            <Numero>0</Numero>
+                            <Lugar>Juana Manso y Emma de la Barra</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>21</AnclajesTotales>
+                            <AnclajesDisponibles>21</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>27</EstacionId>
+                            <EstacionNombre>Montevideo</EstacionNombre>
+                            <BicicletaDisponibles>0</BicicletaDisponibles>
+                            <EstacionDisponible>SI</EstacionDisponible>
+                            <Latitud>-34.599506</Latitud>
+                            <Longitud>-58.389902</Longitud>
+                            <Numero>1616</Numero>
+                            <Lugar>Córdoba y Montevideo</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>16</AnclajesTotales>
+                            <AnclajesDisponibles>16</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>28</EstacionId>
+                            <EstacionNombre>Plaza Boedo</EstacionNombre>
+                            <BicicletaDisponibles>1</BicicletaDisponibles>
+                            <EstacionDisponible>SI</EstacionDisponible>
+                            <Latitud>-34.622995</Latitud>
+                            <Longitud>-58.41258</Longitud>
+                            <Numero>0</Numero>
+                            <Lugar>Carlos Calvo y Sanchez de Loria</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>20</AnclajesTotales>
+                            <AnclajesDisponibles>19</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>29</EstacionId>
+                            <EstacionNombre>Parque Centenario</EstacionNombre>
+                            <BicicletaDisponibles>0</BicicletaDisponibles>
+                            <EstacionDisponible>SI</EstacionDisponible>
+                            <Latitud>-34.607873</Latitud>
+                            <Longitud>-58.433540</Longitud>
+                            <Numero>0</Numero>
+                            <Lugar>Patricias Argentinas y Estivao</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>28</AnclajesTotales>
+                            <AnclajesDisponibles>28</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>30</EstacionId>
+                            <EstacionNombre>Peña</EstacionNombre>
+                            <BicicletaDisponibles>0</BicicletaDisponibles>
+                            <EstacionDisponible>SI</EstacionDisponible>
+                            <Latitud>-34.590586</Latitud>
+                            <Longitud>-58.397434</Longitud>
+                            <Numero>0</Numero>
+                            <Lugar>Peña y Azcuénaga</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>20</AnclajesTotales>
+                            <AnclajesDisponibles>20</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>31</EstacionId>
+                            <EstacionNombre>Padilla</EstacionNombre>
+                            <BicicletaDisponibles>0</BicicletaDisponibles>
+                            <EstacionDisponible>NO</EstacionDisponible>
+                            <Latitud>-34.603173</Latitud>
+                            <Longitud>-58.439635</Longitud>
+                            <Numero>0</Numero>
+                            <Lugar>Padilla y Julián Alvarez</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>20</AnclajesTotales>
+                            <AnclajesDisponibles>20</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>32</EstacionId>
+                            <EstacionNombre>Catedral</EstacionNombre>
+                            <BicicletaDisponibles>1</BicicletaDisponibles>
+                            <EstacionDisponible>SI</EstacionDisponible>
+                            <Latitud>-34.607559</Latitud>
+                            <Longitud>-58.373600</Longitud>
+                            <Numero>0</Numero>
+                            <Lugar>San Martín y Rivadavia</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>16</AnclajesTotales>
+                            <AnclajesDisponibles>15</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>33</EstacionId>
+                            <EstacionNombre>Facultad de Medicina</EstacionNombre>
+                            <BicicletaDisponibles>0</BicicletaDisponibles>
+                            <EstacionDisponible>SI</EstacionDisponible>
+                            <Latitud>-34.597211</Latitud>
+                            <Longitud>-58.398887</Longitud>
+                            <Numero>0</Numero>
+                            <Lugar>Uriburu y M. T. de Alvear</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>20</AnclajesTotales>
+                            <AnclajesDisponibles>20</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>34</EstacionId>
+                            <EstacionNombre>Galerías Pacífico</EstacionNombre>
+                            <BicicletaDisponibles>0</BicicletaDisponibles>
+                            <EstacionDisponible>NO</EstacionDisponible>
+                            <Latitud>-34.599097</Latitud>
+                            <Longitud>-58.37416</Longitud>
+                            <Numero>0</Numero>
+                            <Lugar>San Martín y Viamonte</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>16</AnclajesTotales>
+                            <AnclajesDisponibles>16</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>35</EstacionId>
+                            <EstacionNombre>Ingeniero Butty</EstacionNombre>
+                            <BicicletaDisponibles>0</BicicletaDisponibles>
+                            <EstacionDisponible>SI</EstacionDisponible>
+                            <Latitud>-34.596146</Latitud>
+                            <Longitud>-58.371839</Longitud>
+                            <Numero>0</Numero>
+                            <Lugar>Ingeniero Butty y Leando N. Alem</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>28</AnclajesTotales>
+                            <AnclajesDisponibles>28</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>36</EstacionId>
+                            <EstacionNombre>Maipú</EstacionNombre>
+                            <BicicletaDisponibles>0</BicicletaDisponibles>
+                            <EstacionDisponible>SI</EstacionDisponible>
+                            <Latitud>-34.604841</Latitud>
+                            <Longitud>-58.376584</Longitud>
+                            <Numero>0</Numero>
+                            <Lugar>Maipú y Sarmiento</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>16</AnclajesTotales>
+                            <AnclajesDisponibles>16</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>37</EstacionId>
+                            <EstacionNombre>Piedras</EstacionNombre>
+                            <BicicletaDisponibles>1</BicicletaDisponibles>
+                            <EstacionDisponible>SI</EstacionDisponible>
+                            <Latitud>-34.607948</Latitud>
+                            <Longitud>-58.377993</Longitud>
+                            <Numero>0</Numero>
+                            <Lugar>Esmeralda y Rivadavia</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>14</AnclajesTotales>
+                            <AnclajesDisponibles>13</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>38</EstacionId>
+                            <EstacionNombre>Plaza Libertad</EstacionNombre>
+                            <BicicletaDisponibles>0</BicicletaDisponibles>
+                            <EstacionDisponible>SI</EstacionDisponible>
+                            <Latitud>-34.596969</Latitud>
+                            <Longitud>-58.382798</Longitud>
+                            <Numero>0</Numero>
+                            <Lugar>Cerrito y M. T. de Alvear</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>20</AnclajesTotales>
+                            <AnclajesDisponibles>20</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>39</EstacionId>
+                            <EstacionNombre>Santiago del Estero</EstacionNombre>
+                            <BicicletaDisponibles>0</BicicletaDisponibles>
+                            <EstacionDisponible>NO</EstacionDisponible>
+                            <Latitud/>
+                            <Longitud/>
+                            <Numero>0</Numero>
+                            <Lugar>Santiago del Estero y Carlos Calvo</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>20</AnclajesTotales>
+                            <AnclajesDisponibles>20</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>40</EstacionId>
+                            <EstacionNombre>Sarmiento</EstacionNombre>
+                            <BicicletaDisponibles>0</BicicletaDisponibles>
+                            <EstacionDisponible>SI</EstacionDisponible>
+                            <Latitud>-34.604436</Latitud>
+                            <Longitud>-58.373785</Longitud>
+                            <Numero>0</Numero>
+                            <Lugar>Sarmiento y San Martín</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>20</AnclajesTotales>
+                            <AnclajesDisponibles>20</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>41</EstacionId>
+                            <EstacionNombre>Urquiza</EstacionNombre>
+                            <BicicletaDisponibles>1</BicicletaDisponibles>
+                            <EstacionDisponible>SI</EstacionDisponible>
+                            <Latitud>-34.636356</Latitud>
+                            <Longitud>-58.40766</Longitud>
+                            <Numero>0</Numero>
+                            <Lugar>Urquiza y Rondeau</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>20</AnclajesTotales>
+                            <AnclajesDisponibles>19</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>42</EstacionId>
+                            <EstacionNombre>Diagonal Norte</EstacionNombre>
+                            <BicicletaDisponibles>0</BicicletaDisponibles>
+                            <EstacionDisponible>SI</EstacionDisponible>
+                            <Latitud>-34.604720</Latitud>
+                            <Longitud>-58.37967</Longitud>
+                            <Numero>0</Numero>
+                            <Lugar>
+                                Pres. Roque Saenz Peña entre Suipacha y Carlos Pellegrini
+                            </Lugar>
+                            <Piso/>
+                            <AnclajesTotales>21</AnclajesTotales>
+                            <AnclajesDisponibles>21</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>43</EstacionId>
+                            <EstacionNombre>Plaza Houssay</EstacionNombre>
+                            <BicicletaDisponibles>0</BicicletaDisponibles>
+                            <EstacionDisponible>SI</EstacionDisponible>
+                            <Latitud>-34.599755</Latitud>
+                            <Longitud>-58.397834</Longitud>
+                            <Numero>2135</Numero>
+                            <Lugar>Córdoba entre Junín y Pres. E. José Uriburu</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>28</AnclajesTotales>
+                            <AnclajesDisponibles>28</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>44</EstacionId>
+                            <EstacionNombre>Zoológico</EstacionNombre>
+                            <BicicletaDisponibles>0</BicicletaDisponibles>
+                            <EstacionDisponible>SI</EstacionDisponible>
+                            <Latitud>-34.575548</Latitud>
+                            <Longitud>-58.413716</Longitud>
+                            <Numero>3300</Numero>
+                            <Lugar>Del Libertador 3300 entre Sarmiento y Adolfo Berro</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>20</AnclajesTotales>
+                            <AnclajesDisponibles>20</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>45</EstacionId>
+                            <EstacionNombre>Humberto 1º</EstacionNombre>
+                            <BicicletaDisponibles>0</BicicletaDisponibles>
+                            <EstacionDisponible>NO</EstacionDisponible>
+                            <Latitud>-34.619842</Latitud>
+                            <Longitud>-58.374292</Longitud>
+                            <Numero>1016</Numero>
+                            <Lugar>Perú 1016 entre Humberto 1° y Carlos Calvo</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>21</AnclajesTotales>
+                            <AnclajesDisponibles>21</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>46</EstacionId>
+                            <EstacionNombre>Chile</EstacionNombre>
+                            <BicicletaDisponibles>1</BicicletaDisponibles>
+                            <EstacionDisponible>SI</EstacionDisponible>
+                            <Latitud>-34.616327</Latitud>
+                            <Longitud>-58.374491</Longitud>
+                            <Numero>726</Numero>
+                            <Lugar>Chile y Perú</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>21</AnclajesTotales>
+                            <AnclajesDisponibles>20</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>47</EstacionId>
+                            <EstacionNombre>Colegio Nacional Buenos Aires</EstacionNombre>
+                            <BicicletaDisponibles>0</BicicletaDisponibles>
+                            <EstacionDisponible>NO</EstacionDisponible>
+                            <Latitud>-34.611002</Latitud>
+                            <Longitud>-58.373413</Longitud>
+                            <Numero>263</Numero>
+                            <Lugar>Bolivar entre Adolfo Alsina y Moreno</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>16</AnclajesTotales>
+                            <AnclajesDisponibles>16</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>48</EstacionId>
+                            <EstacionNombre>Perón</EstacionNombre>
+                            <BicicletaDisponibles>1</BicicletaDisponibles>
+                            <EstacionDisponible>SI</EstacionDisponible>
+                            <Latitud>-34.605429</Latitud>
+                            <Longitud>-58.371528</Longitud>
+                            <Numero>339</Numero>
+                            <Lugar>
+                                Tte. Gral. Juan Domingo Perón entre 25 De Mayo y Reconquista
+                            </Lugar>
+                            <Piso/>
+                            <AnclajesTotales>16</AnclajesTotales>
+                            <AnclajesDisponibles>15</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>49</EstacionId>
+                            <EstacionNombre>Corrientes</EstacionNombre>
+                            <BicicletaDisponibles>0</BicicletaDisponibles>
+                            <EstacionDisponible>NO</EstacionDisponible>
+                            <Latitud/>
+                            <Longitud/>
+                            <Numero>420</Numero>
+                            <Lugar>Corrientes entre San Martin y Reconquista</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>14</AnclajesTotales>
+                            <AnclajesDisponibles>14</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>50</EstacionId>
+                            <EstacionNombre>Marcelo T. de Alvear</EstacionNombre>
+                            <BicicletaDisponibles>0</BicicletaDisponibles>
+                            <EstacionDisponible>NO</EstacionDisponible>
+                            <Latitud/>
+                            <Longitud/>
+                            <Numero>894</Numero>
+                            <Lugar>Marcelo T. de Alvear entre Suipacha y Esmeralda</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>20</AnclajesTotales>
+                            <AnclajesDisponibles>20</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>51</EstacionId>
+                            <EstacionNombre>Tucumán</EstacionNombre>
+                            <BicicletaDisponibles>0</BicicletaDisponibles>
+                            <EstacionDisponible>SI</EstacionDisponible>
+                            <Latitud>-34.601347</Latitud>
+                            <Longitud>-58.382268</Longitud>
+                            <Numero>0</Numero>
+                            <Lugar>Tucumán entre Cerrito y 9 de Julio</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>14</AnclajesTotales>
+                            <AnclajesDisponibles>14</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>52</EstacionId>
+                            <EstacionNombre>Sánchez de Bustamante</EstacionNombre>
+                            <BicicletaDisponibles>0</BicicletaDisponibles>
+                            <EstacionDisponible>NO</EstacionDisponible>
+                            <Latitud>-34.607034</Latitud>
+                            <Longitud>-58.414689</Longitud>
+                            <Numero>0</Numero>
+                            <Lugar>Sanchez de Bustamante y Perón</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>20</AnclajesTotales>
+                            <AnclajesDisponibles>20</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>53</EstacionId>
+                            <EstacionNombre>Ricardo Rojas</EstacionNombre>
+                            <BicicletaDisponibles>0</BicicletaDisponibles>
+                            <EstacionDisponible>NO</EstacionDisponible>
+                            <Latitud>-34.595389</Latitud>
+                            <Longitud>-58.374469</Longitud>
+                            <Numero>1031</Numero>
+                            <Lugar>
+                                San Martin entre Dr. Ricardo Rojas y Marcelo T. de Alvear
+                            </Lugar>
+                            <Piso/>
+                            <AnclajesTotales>20</AnclajesTotales>
+                            <AnclajesDisponibles>20</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>54</EstacionId>
+                            <EstacionNombre>Acuña de Figueroa</EstacionNombre>
+                            <BicicletaDisponibles>0</BicicletaDisponibles>
+                            <EstacionDisponible>NO</EstacionDisponible>
+                            <Latitud>-34.598280</Latitud>
+                            <Longitud>-58.421928</Longitud>
+                            <Numero>0</Numero>
+                            <Lugar>Acuña de Figueroa y Lavalle</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>20</AnclajesTotales>
+                            <AnclajesDisponibles>20</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>55</EstacionId>
+                            <EstacionNombre>Talcahuano</EstacionNombre>
+                            <BicicletaDisponibles>0</BicicletaDisponibles>
+                            <EstacionDisponible>NO</EstacionDisponible>
+                            <Latitud>-34.596588</Latitud>
+                            <Longitud>-58.385749</Longitud>
+                            <Numero>1034</Numero>
+                            <Lugar>Talcahuano y Marcelo T. de Alvear</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>20</AnclajesTotales>
+                            <AnclajesDisponibles>20</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>56</EstacionId>
+                            <EstacionNombre>Plaza Palermo Viejo</EstacionNombre>
+                            <BicicletaDisponibles>1</BicicletaDisponibles>
+                            <EstacionDisponible>SI</EstacionDisponible>
+                            <Latitud>-34.589416</Latitud>
+                            <Longitud>-58.425143</Longitud>
+                            <Numero>0</Numero>
+                            <Lugar>Costa Rica y Malabia</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>16</AnclajesTotales>
+                            <AnclajesDisponibles>15</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>57</EstacionId>
+                            <EstacionNombre>Belgrano</EstacionNombre>
+                            <BicicletaDisponibles>0</BicicletaDisponibles>
+                            <EstacionDisponible>SI</EstacionDisponible>
+                            <Latitud>-34.613024</Latitud>
+                            <Longitud>-58.370706</Longitud>
+                            <Numero>482</Numero>
+                            <Lugar>Balcarce entre Belgrano y Venezuela</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>16</AnclajesTotales>
+                            <AnclajesDisponibles>16</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>58</EstacionId>
+                            <EstacionNombre>Ministro Carranza</EstacionNombre>
+                            <BicicletaDisponibles>0</BicicletaDisponibles>
+                            <EstacionDisponible>SI</EstacionDisponible>
+                            <Latitud>-34.575139</Latitud>
+                            <Longitud>-58.434778</Longitud>
+                            <Numero>5327</Numero>
+                            <Lugar>SANTA FE Entre DORREGO Y AREVALO</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>20</AnclajesTotales>
+                            <AnclajesDisponibles>20</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>59</EstacionId>
+                            <EstacionNombre>Coronel Díaz</EstacionNombre>
+                            <BicicletaDisponibles>3</BicicletaDisponibles>
+                            <EstacionDisponible>NO</EstacionDisponible>
+                            <Latitud>-34.590202</Latitud>
+                            <Longitud>-58.411614</Longitud>
+                            <Numero>3328</Numero>
+                            <Lugar>Güemes y Coronel Diaz</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>20</AnclajesTotales>
+                            <AnclajesDisponibles>17</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>60</EstacionId>
+                            <EstacionNombre>25 de Mayo</EstacionNombre>
+                            <BicicletaDisponibles>0</BicicletaDisponibles>
+                            <EstacionDisponible>SI</EstacionDisponible>
+                            <Latitud>-34.601586</Latitud>
+                            <Longitud>-58.371224</Longitud>
+                            <Numero>527</Numero>
+                            <Lugar>25 De Mayo entre Lavalle y Tucumán</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>20</AnclajesTotales>
+                            <AnclajesDisponibles>20</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>62</EstacionId>
+                            <EstacionNombre>Córdoba</EstacionNombre>
+                            <BicicletaDisponibles>0</BicicletaDisponibles>
+                            <EstacionDisponible>NO</EstacionDisponible>
+                            <Latitud>-34.598506</Latitud>
+                            <Longitud>-58.376938</Longitud>
+                            <Numero>820</Numero>
+                            <Lugar>Maipú entre Av. Córdoba y Paraguay</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>20</AnclajesTotales>
+                            <AnclajesDisponibles>20</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>64</EstacionId>
+                            <EstacionNombre>Riobamba</EstacionNombre>
+                            <BicicletaDisponibles>0</BicicletaDisponibles>
+                            <EstacionDisponible>NO</EstacionDisponible>
+                            <Latitud>-34.594263</Latitud>
+                            <Longitud>-58.394330</Longitud>
+                            <Numero>0</Numero>
+                            <Lugar>Riobamba entre Juncal y Arenales</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>20</AnclajesTotales>
+                            <AnclajesDisponibles>20</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>65</EstacionId>
+                            <EstacionNombre>Julián Álvarez</EstacionNombre>
+                            <BicicletaDisponibles>9</BicicletaDisponibles>
+                            <EstacionDisponible>NO</EstacionDisponible>
+                            <Latitud>-34.587184</Latitud>
+                            <Longitud>-58.415815</Longitud>
+                            <Numero>3822</Numero>
+                            <Lugar>Güemes entre Julián Álvarez y Araoz</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>20</AnclajesTotales>
+                            <AnclajesDisponibles>11</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>68</EstacionId>
+                            <EstacionNombre>Rivarola</EstacionNombre>
+                            <BicicletaDisponibles>2</BicicletaDisponibles>
+                            <EstacionDisponible>SI</EstacionDisponible>
+                            <Latitud>-34.606681</Latitud>
+                            <Longitud>-58.385455</Longitud>
+                            <Numero>175</Numero>
+                            <Lugar>
+                                Dr. Rodolfo Rivarola entre Tte. Gral. Juan Domingo Perón y Bartolomé Mitre
+                            </Lugar>
+                            <Piso/>
+                            <AnclajesTotales>20</AnclajesTotales>
+                            <AnclajesDisponibles>18</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>71</EstacionId>
+                            <EstacionNombre>Libertad</EstacionNombre>
+                            <BicicletaDisponibles>0</BicicletaDisponibles>
+                            <EstacionDisponible>NO</EstacionDisponible>
+                            <Latitud>-34.603027</Latitud>
+                            <Longitud>-58.382824</Longitud>
+                            <Numero>1149</Numero>
+                            <Lugar>Av. Roque Saenz Peña entre Libertad y Cerrito</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>28</AnclajesTotales>
+                            <AnclajesDisponibles>28</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>74</EstacionId>
+                            <EstacionNombre>Instituto Leloir</EstacionNombre>
+                            <BicicletaDisponibles>0</BicicletaDisponibles>
+                            <EstacionDisponible>NO</EstacionDisponible>
+                            <Latitud>-34.604646</Latitud>
+                            <Longitud>-58.434769</Longitud>
+                            <Numero>401</Numero>
+                            <Lugar>
+                                Av. Patricias Argentinas entre Juana de Ibarbourou y Av. Machado
+                            </Lugar>
+                            <Piso/>
+                            <AnclajesTotales>28</AnclajesTotales>
+                            <AnclajesDisponibles>28</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>75</EstacionId>
+                            <EstacionNombre>Plaza Primero de Mayo</EstacionNombre>
+                            <BicicletaDisponibles>0</BicicletaDisponibles>
+                            <EstacionDisponible>NO</EstacionDisponible>
+                            <Latitud>-34.612383</Latitud>
+                            <Longitud>-58.39895</Longitud>
+                            <Numero>0</Numero>
+                            <Lugar>Pichincha entre Adolfo Alsina y Moreno</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>20</AnclajesTotales>
+                            <AnclajesDisponibles>20</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>76</EstacionId>
+                            <EstacionNombre>Ayacucho</EstacionNombre>
+                            <BicicletaDisponibles>3</BicicletaDisponibles>
+                            <EstacionDisponible>NO</EstacionDisponible>
+                            <Latitud>-34.607551</Latitud>
+                            <Longitud>-58.394959</Longitud>
+                            <Numero>0</Numero>
+                            <Lugar>Ayacucho entre Perón J. D y Bartolomé Mitre</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>20</AnclajesTotales>
+                            <AnclajesDisponibles>17</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>77</EstacionId>
+                            <EstacionNombre>Sarandí</EstacionNombre>
+                            <BicicletaDisponibles>0</BicicletaDisponibles>
+                            <EstacionDisponible>NO</EstacionDisponible>
+                            <Latitud>-34.611021</Latitud>
+                            <Longitud>-58.394780</Longitud>
+                            <Numero>0</Numero>
+                            <Lugar>Sarandi entre Adolfo Alsina y Hipólito Yrigoyen</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>20</AnclajesTotales>
+                            <AnclajesDisponibles>20</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>78</EstacionId>
+                            <EstacionNombre>Arroyo</EstacionNombre>
+                            <BicicletaDisponibles>0</BicicletaDisponibles>
+                            <EstacionDisponible>NO</EstacionDisponible>
+                            <Latitud>-34.591433</Latitud>
+                            <Longitud>-58.380331</Longitud>
+                            <Numero>0</Numero>
+                            <Lugar>Arroyo y Suipacha</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>20</AnclajesTotales>
+                            <AnclajesDisponibles>20</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>82</EstacionId>
+                            <EstacionNombre>Hospital Italiano</EstacionNombre>
+                            <BicicletaDisponibles>0</BicicletaDisponibles>
+                            <EstacionDisponible>NO</EstacionDisponible>
+                            <Latitud>-34.608095</Latitud>
+                            <Longitud>-58.426184</Longitud>
+                            <Numero>0</Numero>
+                            <Lugar>RAWSON entre POTOSI y DIAZ VELEZ</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>20</AnclajesTotales>
+                            <AnclajesDisponibles>20</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>83</EstacionId>
+                            <EstacionNombre>Paraná</EstacionNombre>
+                            <BicicletaDisponibles>0</BicicletaDisponibles>
+                            <EstacionDisponible>NO</EstacionDisponible>
+                            <Latitud>-34.602878</Latitud>
+                            <Longitud>-58.388749</Longitud>
+                            <Numero>0</Numero>
+                            <Lugar>LAVALLE entre MONTEVIDEO y Paraná</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>20</AnclajesTotales>
+                            <AnclajesDisponibles>20</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>87</EstacionId>
+                            <EstacionNombre>Pueyrredón</EstacionNombre>
+                            <BicicletaDisponibles>0</BicicletaDisponibles>
+                            <EstacionDisponible>NO</EstacionDisponible>
+                            <Latitud>-34.601612</Latitud>
+                            <Longitud>-58.405832</Longitud>
+                            <Numero>0</Numero>
+                            <Lugar>Boulogne Sur Mer y Tucumán</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>20</AnclajesTotales>
+                            <AnclajesDisponibles>20</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>88</EstacionId>
+                            <EstacionNombre>Misiones</EstacionNombre>
+                            <BicicletaDisponibles>0</BicicletaDisponibles>
+                            <EstacionDisponible>NO</EstacionDisponible>
+                            <Latitud>-34.612886</Latitud>
+                            <Longitud>-58.404286</Longitud>
+                            <Numero>0</Numero>
+                            <Lugar>Misiones entre Adolfo Alsina y Moreno</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>20</AnclajesTotales>
+                            <AnclajesDisponibles>20</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>89</EstacionId>
+                            <EstacionNombre>Hospital Ramos Mejía</EstacionNombre>
+                            <BicicletaDisponibles>0</BicicletaDisponibles>
+                            <EstacionDisponible>NO</EstacionDisponible>
+                            <Latitud>-34.617507</Latitud>
+                            <Longitud>-58.408314</Longitud>
+                            <Numero>3084</Numero>
+                            <Lugar>Agrelo entre Gral. Urquiza, y Gral. La Rioja</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>20</AnclajesTotales>
+                            <AnclajesDisponibles>20</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>90</EstacionId>
+                            <EstacionNombre>México</EstacionNombre>
+                            <BicicletaDisponibles>0</BicicletaDisponibles>
+                            <EstacionDisponible>NO</EstacionDisponible>
+                            <Latitud>-34.616848</Latitud>
+                            <Longitud>-58.402717</Longitud>
+                            <Numero>0</Numero>
+                            <Lugar>Saavedra y México</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>20</AnclajesTotales>
+                            <AnclajesDisponibles>20</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>91</EstacionId>
+                            <EstacionNombre>Pasco</EstacionNombre>
+                            <BicicletaDisponibles>0</BicicletaDisponibles>
+                            <EstacionDisponible>NO</EstacionDisponible>
+                            <Latitud>-34.617276</Latitud>
+                            <Longitud>-58.397672</Longitud>
+                            <Numero>698</Numero>
+                            <Lugar>PASCO entre CHILE y MEXICO</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>20</AnclajesTotales>
+                            <AnclajesDisponibles>20</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>92</EstacionId>
+                            <EstacionNombre>Rincón</EstacionNombre>
+                            <BicicletaDisponibles>0</BicicletaDisponibles>
+                            <EstacionDisponible>NO</EstacionDisponible>
+                            <Latitud>-34.615165</Latitud>
+                            <Longitud>-58.395940</Longitud>
+                            <Numero>2091</Numero>
+                            <Lugar>Venezuela y Rincón</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>20</AnclajesTotales>
+                            <AnclajesDisponibles>20</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>93</EstacionId>
+                            <EstacionNombre>Carlos Calvo</EstacionNombre>
+                            <BicicletaDisponibles>0</BicicletaDisponibles>
+                            <EstacionDisponible>NO</EstacionDisponible>
+                            <Latitud>-34.620744</Latitud>
+                            <Longitud>-58.394449</Longitud>
+                            <Numero>1010</Numero>
+                            <Lugar>Sarandi entre Carlos Calvo y Humberto 1°</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>20</AnclajesTotales>
+                            <AnclajesDisponibles>20</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>94</EstacionId>
+                            <EstacionNombre>Guzmán</EstacionNombre>
+                            <BicicletaDisponibles>0</BicicletaDisponibles>
+                            <EstacionDisponible>NO</EstacionDisponible>
+                            <Latitud>-34.591811</Latitud>
+                            <Longitud>-58.449442</Longitud>
+                            <Numero>101</Numero>
+                            <Lugar>GUZMAN Entre LEIVA Y ARENAL, CONCEPCION</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>28</AnclajesTotales>
+                            <AnclajesDisponibles>28</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>95</EstacionId>
+                            <EstacionNombre>Esmeralda</EstacionNombre>
+                            <BicicletaDisponibles>0</BicicletaDisponibles>
+                            <EstacionDisponible>NO</EstacionDisponible>
+                            <Latitud>-34.602210</Latitud>
+                            <Longitud>-58.378212</Longitud>
+                            <Numero>510</Numero>
+                            <Lugar>Esmeralda y Lavalle</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>20</AnclajesTotales>
+                            <AnclajesDisponibles>20</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>508</EstacionId>
+                            <EstacionNombre>Congreso</EstacionNombre>
+                            <BicicletaDisponibles>0</BicicletaDisponibles>
+                            <EstacionDisponible>SI</EstacionDisponible>
+                            <Latitud>-34.609733</Latitud>
+                            <Longitud>-58.389253</Longitud>
+                            <Numero>0</Numero>
+                            <Lugar>CABA</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>50</AnclajesTotales>
+                            <AnclajesDisponibles>50</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>515</EstacionId>
+                            <EstacionNombre>Emilio Mitre</EstacionNombre>
+                            <BicicletaDisponibles>0</BicicletaDisponibles>
+                            <EstacionDisponible>SI</EstacionDisponible>
+                            <Latitud>-34.588546</Latitud>
+                            <Longitud>-58.397712</Longitud>
+                            <Numero>2399</Numero>
+                            <Lugar>Pacheco de Melo y Larrea</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>50</AnclajesTotales>
+                            <AnclajesDisponibles>50</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>521</EstacionId>
+                            <EstacionNombre>Caseros</EstacionNombre>
+                            <BicicletaDisponibles>1</BicicletaDisponibles>
+                            <EstacionDisponible>NO</EstacionDisponible>
+                            <Latitud>-34.638021</Latitud>
+                            <Longitud>-58.410794</Longitud>
+                            <Numero>0</Numero>
+                            <Lugar>Av. Caseros entre Pepirí y Alma Fuerte</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>50</AnclajesTotales>
+                            <AnclajesDisponibles>49</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>533</EstacionId>
+                            <EstacionNombre>Plaza Houssay</EstacionNombre>
+                            <BicicletaDisponibles>36</BicicletaDisponibles>
+                            <EstacionDisponible>NO</EstacionDisponible>
+                            <Latitud/>
+                            <Longitud/>
+                            <Numero>0</Numero>
+                            <Lugar>Av. Córdoba entre Uriburu y Junín</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>50</AnclajesTotales>
+                            <AnclajesDisponibles>14</AnclajesDisponibles>
+                        </Estacion>
+                        <Estacion>
+                            <EstacionId>900</EstacionId>
+                            <EstacionNombre>Estacion de Pruebas Serttel</EstacionNombre>
+                            <BicicletaDisponibles>1</BicicletaDisponibles>
+                            <EstacionDisponible>NO</EstacionDisponible>
+                            <Latitud>123</Latitud>
+                            <Longitud>123</Longitud>
+                            <Numero>900</Numero>
+                            <Lugar>UTE</Lugar>
+                            <Piso/>
+                            <AnclajesTotales>14</AnclajesTotales>
+                            <AnclajesDisponibles>13</AnclajesDisponibles>
+                        </Estacion>
+                    </Estaciones>
+                    <TiempoRespuesta>0,281 segundos</TiempoRespuesta>
+                </Bicicletas>
+            </BicicletasWSResult>
+        </BicicletasWSResponse>
+    </soap:Body>
+</soap:Envelope>

@@ -10,6 +10,7 @@
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/highlight.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
+    <script src="./js/format_examples.js"></script>
     <script src="./js/subtes_streamgraph.js"></script>
 </head>
 <body>
@@ -22,7 +23,41 @@
             obtener datos? ¿Cuáles son las estrategias apropiadas de análisis según el uso? y ¿Cuáles la
             mejor alternativa para visualizarlos?</p>
 
-        <h2>Subtes</h2>
+        <hr>
+
+        <h2>Formatos de archivos para compartir datos</h2>
+        <p>Los principales formatos de archivos que usamos para guardar, compartir y analizar datos son csv, xml y json.</p>
+        <h3>XML (Extensible Markup Language)</h3>
+        <pre><code class="xml"></code></pre>
+        <p>Lectura de xml en Processing:</p>
+        <pre><code class="java">void getStations() {
+    String ecobiciUrl = "http://recursos-data.buenosaires.gob.ar/ckan2/ecobici/estado-ecobici.xml";
+    String response[] = loadStrings(ecobiciUrl);
+    XML xml = parseXML(response[0]);
+    XML stations[] = xml.getChild("soap:Body").getChild("BicicletasWSResponse")
+            .getChild("BicicletasWSResult").getChild("Bicicletas")
+            .getChild("Estaciones").getChildren("Estacion");
+    for (int i=1; i&lt;stations.length; i++) {
+        String name = stations[i].getChild("EstacionNombre").getContent();
+        String availableBikes = stations[i].getChild("BicicletaDisponibles").getContent();
+        println(name + " " + availableBikes);
+    }
+}</code></pre>
+        <p>Lectura de xml en JS:</p>
+        <pre><code class="javascript">function loadXML() {
+    $.get('./data/example.xml', {}, function(response) {
+        var xml = $(response);
+        var stations = xml.find('Estacion');
+        for (var i=0; i&lt;stations.length; i++) {
+            var name = $(stations[i]).find('EstacionNombre').text();
+            var bikes = $(stations[i]).find('BicicletaDisponibles').text();
+            console.log(name, bikes);
+        }
+    });
+}</code></pre>
+        <hr>
+
+        <h2>Viz Subtes</h2>
         <p>Cantidad de ingresos a estaciones de subte, medidos por giros de molinetes. Fuente <a href="http://data.buenosaires.gob.ar/dataset/subte-viajes-molinetes">data.buenosaires.gob.ar</a></p>
         <p>Domingo 13 de julio de 2014 - Final del mundial de futbol (Argentina vs Alemania)</p>
         <div class="streamgraph-container">
