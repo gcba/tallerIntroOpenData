@@ -28,6 +28,7 @@ public void printInfo(XML[] stations) {
   int xOffset = 10;
   int yOffset = 10;
   ArrayList<String> lines = new ArrayList<String>();
+  lines.add("Bicicletas disponibles");
   String currentLine = stations[0].getChild("EstacionNombre").getContent() + " " + stations[0].getChild("BicicletaDisponibles").getContent();
   for (int i=1; i<stations.length; i++) {
     String name = stations[i].getChild("EstacionNombre").getContent();

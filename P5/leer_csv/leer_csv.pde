@@ -32,6 +32,7 @@ public void printInfo(HashMap<String, Integer> calls) {
   int xOffset = 10;
   int yOffset = 10;
   ArrayList<String> lines = new ArrayList<String>();
+  lines.add("Reclamos al 147 segmentados por barrio");
   String currentLine = "";
   for (String barrio : calls.keySet()) {
     if (currentLine.length() == 0) {
