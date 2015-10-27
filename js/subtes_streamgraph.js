@@ -45,29 +45,17 @@ $(function() {
 
         data = data.map(function (d) {
             return d.map(function (p, i) {
-                return {
-                    x: i,
-                    y: p,
-                    y0: 0
-                };
+                return { x: i, y: p, y0: 0 };
             });
         });
+        var color = d3.scale.linear().range(["#0A3430", "#0d403b", "#0a332f", "#125951", "#18736a", "#1b8075", "#239989", "#26a693", "#29b39e", "#2cbfa9", "#31ccb5", "#36d9c0", "#39e6c9", "#3DF2D1"]);
+        var x = d3.scale.linear().range([0, width]).domain([0, data[0].length]);
+        var y = d3.scale.linear().range([height, 0]).domain([-100, d3.max(sum) + 100]);
 
-
-        var color = d3.scale.linear().range(["#0A3430", "#1E5846"]);
-
-        var x = d3.scale.linear().range([0, width])
-            .domain([0, data[0].length]);
-
-        var y = d3.scale.linear().range([height, 0]).domain([0, d3.max(sum)]);
-
-        var svg = d3.select(containerSelector).append("svg")
-            .attr("width", width).attr("height", height).append("g");
+        var svg = d3.select(containerSelector).append("svg").attr("width", width).attr("height", height).append("g");
 
         var stack = d3.layout.stack().offset("wiggle");
-
         var layers = stack(data);
-
         var area = d3.svg.area().interpolate('cardinal')
             .x(function (d, i) {
                 return x(i);
