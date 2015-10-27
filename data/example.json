@@ -1,0 +1,717 @@
+{
+  "channel": {
+    "id": 26840,
+    "name": "Estación Meteorológica La Plata",
+    "description": "Estación Meteorológica Wi-Fi La Plata",
+    "latitude": "-34.920258",
+    "longitude": "-57.92855",
+    "field1": "Temperatura",
+    "field2": "Humedad",
+    "field3": "Presion",
+    "created_at": "2015-02-16T06:09:26Z",
+    "updated_at": "2015-10-27T19:07:44Z",
+    "last_entry_id": 60410
+  },
+  "feeds": [
+    {
+      "created_at": "2015-10-27T15:43:35Z",
+      "entry_id": 60311,
+      "field1": "28.0",
+      "field2": "44.5",
+      "field3": "1012.6"
+    },
+    {
+      "created_at": "2015-10-27T15:45:38Z",
+      "entry_id": 60312,
+      "field1": "27.9",
+      "field2": "44.3",
+      "field3": "1012.6"
+    },
+    {
+      "created_at": "2015-10-27T15:47:42Z",
+      "entry_id": 60313,
+      "field1": "28.1",
+      "field2": "45.0",
+      "field3": "1012.5"
+    },
+    {
+      "created_at": "2015-10-27T15:49:46Z",
+      "entry_id": 60314,
+      "field1": "28.4",
+      "field2": "44.0",
+      "field3": "1012.6"
+    },
+    {
+      "created_at": "2015-10-27T15:51:50Z",
+      "entry_id": 60315,
+      "field1": "28.5",
+      "field2": "44.0",
+      "field3": "1012.6"
+    },
+    {
+      "created_at": "2015-10-27T15:53:53Z",
+      "entry_id": 60316,
+      "field1": "28.7",
+      "field2": "43.7",
+      "field3": "1012.5"
+    },
+    {
+      "created_at": "2015-10-27T15:55:57Z",
+      "entry_id": 60317,
+      "field1": "28.7",
+      "field2": "43.8",
+      "field3": "1012.5"
+    },
+    {
+      "created_at": "2015-10-27T15:58:01Z",
+      "entry_id": 60318,
+      "field1": "28.8",
+      "field2": "43.6",
+      "field3": "1012.5"
+    },
+    {
+      "created_at": "2015-10-27T16:00:04Z",
+      "entry_id": 60319,
+      "field1": "28.5",
+      "field2": "44.3",
+      "field3": "1012.5"
+    },
+    {
+      "created_at": "2015-10-27T16:02:08Z",
+      "entry_id": 60320,
+      "field1": "27.8",
+      "field2": "46.1",
+      "field3": "1012.5"
+    },
+    {
+      "created_at": "2015-10-27T16:04:12Z",
+      "entry_id": 60321,
+      "field1": "27.3",
+      "field2": "47.5",
+      "field3": "1012.5"
+    },
+    {
+      "created_at": "2015-10-27T16:06:16Z",
+      "entry_id": 60322,
+      "field1": "27.2",
+      "field2": "47.9",
+      "field3": "1012.4"
+    },
+    {
+      "created_at": "2015-10-27T16:08:19Z",
+      "entry_id": 60323,
+      "field1": "26.7",
+      "field2": "49.3",
+      "field3": "1012.5"
+    },
+    {
+      "created_at": "2015-10-27T16:10:23Z",
+      "entry_id": 60324,
+      "field1": "26.1",
+      "field2": "51.3",
+      "field3": "1012.5"
+    },
+    {
+      "created_at": "2015-10-27T16:12:27Z",
+      "entry_id": 60325,
+      "field1": "26.3",
+      "field2": "50.7",
+      "field3": "1012.5"
+    },
+    {
+      "created_at": "2015-10-27T16:14:31Z",
+      "entry_id": 60326,
+      "field1": "26.7",
+      "field2": "50.2",
+      "field3": "1012.4"
+    },
+    {
+      "created_at": "2015-10-27T16:16:34Z",
+      "entry_id": 60327,
+      "field1": "27.0",
+      "field2": "50.0",
+      "field3": "1012.5"
+    },
+    {
+      "created_at": "2015-10-27T16:18:38Z",
+      "entry_id": 60328,
+      "field1": "27.4",
+      "field2": "48.8",
+      "field3": "1012.5"
+    },
+    {
+      "created_at": "2015-10-27T16:20:42Z",
+      "entry_id": 60329,
+      "field1": "28.0",
+      "field2": "48.0",
+      "field3": "1012.4"
+    },
+    {
+      "created_at": "2015-10-27T16:22:45Z",
+      "entry_id": 60330,
+      "field1": "28.4",
+      "field2": "46.6",
+      "field3": "1012.5"
+    },
+    {
+      "created_at": "2015-10-27T16:24:49Z",
+      "entry_id": 60331,
+      "field1": "28.6",
+      "field2": "45.4",
+      "field3": "1012.4"
+    },
+    {
+      "created_at": "2015-10-27T16:26:53Z",
+      "entry_id": 60332,
+      "field1": "28.7",
+      "field2": "45.0",
+      "field3": "1012.5"
+    },
+    {
+      "created_at": "2015-10-27T16:28:57Z",
+      "entry_id": 60333,
+      "field1": "28.3",
+      "field2": "45.6",
+      "field3": "1012.4"
+    },
+    {
+      "created_at": "2015-10-27T16:31:00Z",
+      "entry_id": 60334,
+      "field1": "28.1",
+      "field2": "46.8",
+      "field3": "1012.5"
+    },
+    {
+      "created_at": "2015-10-27T16:33:04Z",
+      "entry_id": 60335,
+      "field1": "28.4",
+      "field2": "46.5",
+      "field3": "1012.5"
+    },
+    {
+      "created_at": "2015-10-27T16:35:08Z",
+      "entry_id": 60336,
+      "field1": "27.8",
+      "field2": "46.8",
+      "field3": "1012.6"
+    },
+    {
+      "created_at": "2015-10-27T16:37:12Z",
+      "entry_id": 60337,
+      "field1": "27.9",
+      "field2": "47.1",
+      "field3": "1012.6"
+    },
+    {
+      "created_at": "2015-10-27T16:39:15Z",
+      "entry_id": 60338,
+      "field1": "28.1",
+      "field2": "47.5",
+      "field3": "1012.6"
+    },
+    {
+      "created_at": "2015-10-27T16:41:19Z",
+      "entry_id": 60339,
+      "field1": "28.0",
+      "field2": "47.7",
+      "field3": "1012.6"
+    },
+    {
+      "created_at": "2015-10-27T16:43:23Z",
+      "entry_id": 60340,
+      "field1": "27.5",
+      "field2": "48.3",
+      "field3": "1012.6"
+    },
+    {
+      "created_at": "2015-10-27T16:45:26Z",
+      "entry_id": 60341,
+      "field1": "27.2",
+      "field2": "49.4",
+      "field3": "1012.6"
+    },
+    {
+      "created_at": "2015-10-27T16:47:30Z",
+      "entry_id": 60342,
+      "field1": "27.2",
+      "field2": "49.3",
+      "field3": "1012.6"
+    },
+    {
+      "created_at": "2015-10-27T16:49:34Z",
+      "entry_id": 60343,
+      "field1": "27.6",
+      "field2": "48.7",
+      "field3": "1012.7"
+    },
+    {
+      "created_at": "2015-10-27T16:51:38Z",
+      "entry_id": 60344,
+      "field1": "27.9",
+      "field2": "47.4",
+      "field3": "1012.8"
+    },
+    {
+      "created_at": "2015-10-27T16:53:41Z",
+      "entry_id": 60345,
+      "field1": "28.3",
+      "field2": "46.8",
+      "field3": "1012.7"
+    },
+    {
+      "created_at": "2015-10-27T16:55:45Z",
+      "entry_id": 60346,
+      "field1": "28.1",
+      "field2": "46.9",
+      "field3": "1012.8"
+    },
+    {
+      "created_at": "2015-10-27T16:57:49Z",
+      "entry_id": 60347,
+      "field1": "28.4",
+      "field2": "46.1",
+      "field3": "1012.8"
+    },
+    {
+      "created_at": "2015-10-27T16:59:53Z",
+      "entry_id": 60348,
+      "field1": "28.7",
+      "field2": "45.4",
+      "field3": "1012.8"
+    },
+    {
+      "created_at": "2015-10-27T17:01:56Z",
+      "entry_id": 60349,
+      "field1": "28.9",
+      "field2": "45.3",
+      "field3": "1012.7"
+    },
+    {
+      "created_at": "2015-10-27T17:04:00Z",
+      "entry_id": 60350,
+      "field1": "28.9",
+      "field2": "45.1",
+      "field3": "1012.7"
+    },
+    {
+      "created_at": "2015-10-27T17:06:04Z",
+      "entry_id": 60351,
+      "field1": "29.0",
+      "field2": "45.6",
+      "field3": "1012.7"
+    },
+    {
+      "created_at": "2015-10-27T17:08:08Z",
+      "entry_id": 60352,
+      "field1": "29.0",
+      "field2": "45.6",
+      "field3": "1012.7"
+    },
+    {
+      "created_at": "2015-10-27T17:10:11Z",
+      "entry_id": 60353,
+      "field1": "29.1",
+      "field2": "45.5",
+      "field3": "1012.7"
+    },
+    {
+      "created_at": "2015-10-27T17:12:15Z",
+      "entry_id": 60354,
+      "field1": "29.2",
+      "field2": "45.2",
+      "field3": "1012.8"
+    },
+    {
+      "created_at": "2015-10-27T17:14:19Z",
+      "entry_id": 60355,
+      "field1": "29.3",
+      "field2": "44.6",
+      "field3": "1012.7"
+    },
+    {
+      "created_at": "2015-10-27T17:16:22Z",
+      "entry_id": 60356,
+      "field1": "29.2",
+      "field2": "45.2",
+      "field3": "1012.8"
+    },
+    {
+      "created_at": "2015-10-27T17:18:26Z",
+      "entry_id": 60357,
+      "field1": "28.7",
+      "field2": "45.7",
+      "field3": "1012.7"
+    },
+    {
+      "created_at": "2015-10-27T17:20:30Z",
+      "entry_id": 60358,
+      "field1": "28.7",
+      "field2": "46.1",
+      "field3": "1012.8"
+    },
+    {
+      "created_at": "2015-10-27T17:22:34Z",
+      "entry_id": 60359,
+      "field1": "28.5",
+      "field2": "46.7",
+      "field3": "1012.7"
+    },
+    {
+      "created_at": "2015-10-27T17:24:37Z",
+      "entry_id": 60360,
+      "field1": "28.3",
+      "field2": "47.3",
+      "field3": "1012.7"
+    },
+    {
+      "created_at": "2015-10-27T17:26:41Z",
+      "entry_id": 60361,
+      "field1": "28.7",
+      "field2": "46.9",
+      "field3": "1012.7"
+    },
+    {
+      "created_at": "2015-10-27T17:28:45Z",
+      "entry_id": 60362,
+      "field1": "28.9",
+      "field2": "46.2",
+      "field3": "1012.6"
+    },
+    {
+      "created_at": "2015-10-27T17:30:49Z",
+      "entry_id": 60363,
+      "field1": "28.8",
+      "field2": "46.2",
+      "field3": "1012.7"
+    },
+    {
+      "created_at": "2015-10-27T17:32:52Z",
+      "entry_id": 60364,
+      "field1": "29.0",
+      "field2": "46.2",
+      "field3": "1012.7"
+    },
+    {
+      "created_at": "2015-10-27T17:34:56Z",
+      "entry_id": 60365,
+      "field1": "29.0",
+      "field2": "45.7",
+      "field3": "1012.8"
+    },
+    {
+      "created_at": "2015-10-27T17:37:00Z",
+      "entry_id": 60366,
+      "field1": "28.8",
+      "field2": "46.0",
+      "field3": "1012.6"
+    },
+    {
+      "created_at": "2015-10-27T17:39:04Z",
+      "entry_id": 60367,
+      "field1": "28.4",
+      "field2": "47.0",
+      "field3": "1012.6"
+    },
+    {
+      "created_at": "2015-10-27T17:41:07Z",
+      "entry_id": 60368,
+      "field1": "28.3",
+      "field2": "47.6",
+      "field3": "1012.7"
+    },
+    {
+      "created_at": "2015-10-27T17:43:11Z",
+      "entry_id": 60369,
+      "field1": "28.6",
+      "field2": "46.9",
+      "field3": "1012.7"
+    },
+    {
+      "created_at": "2015-10-27T17:45:15Z",
+      "entry_id": 60370,
+      "field1": "28.3",
+      "field2": "47.5",
+      "field3": "1012.6"
+    },
+    {
+      "created_at": "2015-10-27T17:47:18Z",
+      "entry_id": 60371,
+      "field1": "28.2",
+      "field2": "48.0",
+      "field3": "1012.5"
+    },
+    {
+      "created_at": "2015-10-27T17:49:22Z",
+      "entry_id": 60372,
+      "field1": "28.1",
+      "field2": "47.6",
+      "field3": "1012.6"
+    },
+    {
+      "created_at": "2015-10-27T17:51:26Z",
+      "entry_id": 60373,
+      "field1": "28.1",
+      "field2": "48.4",
+      "field3": "1012.5"
+    },
+    {
+      "created_at": "2015-10-27T17:53:30Z",
+      "entry_id": 60374,
+      "field1": "27.8",
+      "field2": "47.8",
+      "field3": "1012.6"
+    },
+    {
+      "created_at": "2015-10-27T17:55:33Z",
+      "entry_id": 60375,
+      "field1": "27.8",
+      "field2": "48.4",
+      "field3": "1012.6"
+    },
+    {
+      "created_at": "2015-10-27T17:57:37Z",
+      "entry_id": 60376,
+      "field1": "27.6",
+      "field2": "49.1",
+      "field3": "1012.5"
+    },
+    {
+      "created_at": "2015-10-27T17:59:41Z",
+      "entry_id": 60377,
+      "field1": "27.7",
+      "field2": "48.7",
+      "field3": "1012.5"
+    },
+    {
+      "created_at": "2015-10-27T18:01:45Z",
+      "entry_id": 60378,
+      "field1": "27.6",
+      "field2": "48.6",
+      "field3": "1012.5"
+    },
+    {
+      "created_at": "2015-10-27T18:03:48Z",
+      "entry_id": 60379,
+      "field1": "27.9",
+      "field2": "48.0",
+      "field3": "1012.3"
+    },
+    {
+      "created_at": "2015-10-27T18:05:52Z",
+      "entry_id": 60380,
+      "field1": "28.1",
+      "field2": "48.0",
+      "field3": "1012.2"
+    },
+    {
+      "created_at": "2015-10-27T18:07:56Z",
+      "entry_id": 60381,
+      "field1": "28.1",
+      "field2": "48.0",
+      "field3": "1012.2"
+    },
+    {
+      "created_at": "2015-10-27T18:09:59Z",
+      "entry_id": 60382,
+      "field1": "28.2",
+      "field2": "48.3",
+      "field3": "1012.0"
+    },
+    {
+      "created_at": "2015-10-27T18:12:03Z",
+      "entry_id": 60383,
+      "field1": "28.1",
+      "field2": "47.8",
+      "field3": "1011.9"
+    },
+    {
+      "created_at": "2015-10-27T18:14:07Z",
+      "entry_id": 60384,
+      "field1": "28.3",
+      "field2": "47.8",
+      "field3": "1011.9"
+    },
+    {
+      "created_at": "2015-10-27T18:16:11Z",
+      "entry_id": 60385,
+      "field1": "28.6",
+      "field2": "47.5",
+      "field3": "1012.0"
+    },
+    {
+      "created_at": "2015-10-27T18:18:14Z",
+      "entry_id": 60386,
+      "field1": "28.4",
+      "field2": "47.2",
+      "field3": "1011.9"
+    },
+    {
+      "created_at": "2015-10-27T18:20:18Z",
+      "entry_id": 60387,
+      "field1": "28.6",
+      "field2": "46.7",
+      "field3": "1011.9"
+    },
+    {
+      "created_at": "2015-10-27T18:22:22Z",
+      "entry_id": 60388,
+      "field1": "28.8",
+      "field2": "46.2",
+      "field3": "1011.9"
+    },
+    {
+      "created_at": "2015-10-27T18:24:26Z",
+      "entry_id": 60389,
+      "field1": "28.6",
+      "field2": "46.7",
+      "field3": "1012.0"
+    },
+    {
+      "created_at": "2015-10-27T18:26:29Z",
+      "entry_id": 60390,
+      "field1": "28.6",
+      "field2": "47.1",
+      "field3": "1012.0"
+    },
+    {
+      "created_at": "2015-10-27T18:28:33Z",
+      "entry_id": 60391,
+      "field1": "28.6",
+      "field2": "47.2",
+      "field3": "1012.0"
+    },
+    {
+      "created_at": "2015-10-27T18:30:38Z",
+      "entry_id": 60392,
+      "field1": "28.6",
+      "field2": "46.9",
+      "field3": "1011.9"
+    },
+    {
+      "created_at": "2015-10-27T18:32:41Z",
+      "entry_id": 60393,
+      "field1": "28.6",
+      "field2": "47.2",
+      "field3": "1011.9"
+    },
+    {
+      "created_at": "2015-10-27T18:34:44Z",
+      "entry_id": 60394,
+      "field1": "28.7",
+      "field2": "47.3",
+      "field3": "1011.9"
+    },
+    {
+      "created_at": "2015-10-27T18:36:48Z",
+      "entry_id": 60395,
+      "field1": "28.7",
+      "field2": "47.2",
+      "field3": "1011.8"
+    },
+    {
+      "created_at": "2015-10-27T18:38:52Z",
+      "entry_id": 60396,
+      "field1": "28.6",
+      "field2": "47.4",
+      "field3": "1011.7"
+    },
+    {
+      "created_at": "2015-10-27T18:40:55Z",
+      "entry_id": 60397,
+      "field1": "28.7",
+      "field2": "47.4",
+      "field3": "1011.7"
+    },
+    {
+      "created_at": "2015-10-27T18:42:59Z",
+      "entry_id": 60398,
+      "field1": "28.6",
+      "field2": "47.6",
+      "field3": "1011.7"
+    },
+    {
+      "created_at": "2015-10-27T18:45:03Z",
+      "entry_id": 60399,
+      "field1": "28.4",
+      "field2": "48.2",
+      "field3": "1011.8"
+    },
+    {
+      "created_at": "2015-10-27T18:47:07Z",
+      "entry_id": 60400,
+      "field1": "28.5",
+      "field2": "48.4",
+      "field3": "1011.7"
+    },
+    {
+      "created_at": "2015-10-27T18:49:10Z",
+      "entry_id": 60401,
+      "field1": "28.4",
+      "field2": "48.4",
+      "field3": "1011.8"
+    },
+    {
+      "created_at": "2015-10-27T18:51:14Z",
+      "entry_id": 60402,
+      "field1": "28.5",
+      "field2": "48.6",
+      "field3": "1011.8"
+    },
+    {
+      "created_at": "2015-10-27T18:53:18Z",
+      "entry_id": 60403,
+      "field1": "28.6",
+      "field2": "48.1",
+      "field3": "1011.8"
+    },
+    {
+      "created_at": "2015-10-27T18:55:22Z",
+      "entry_id": 60404,
+      "field1": "28.5",
+      "field2": "48.1",
+      "field3": "1011.8"
+    },
+    {
+      "created_at": "2015-10-27T18:57:25Z",
+      "entry_id": 60405,
+      "field1": "28.6",
+      "field2": "48.2",
+      "field3": "1011.7"
+    },
+    {
+      "created_at": "2015-10-27T18:59:30Z",
+      "entry_id": 60406,
+      "field1": "28.5",
+      "field2": "48.2",
+      "field3": "1011.8"
+    },
+    {
+      "created_at": "2015-10-27T19:01:33Z",
+      "entry_id": 60407,
+      "field1": "28.5",
+      "field2": "47.9",
+      "field3": "1011.8"
+    },
+    {
+      "created_at": "2015-10-27T19:03:37Z",
+      "entry_id": 60408,
+      "field1": "28.4",
+      "field2": "48.4",
+      "field3": "1011.8"
+    },
+    {
+      "created_at": "2015-10-27T19:05:40Z",
+      "entry_id": 60409,
+      "field1": "28.3",
+      "field2": "48.6",
+      "field3": "1011.8"
+    },
+    {
+      "created_at": "2015-10-27T19:07:44Z",
+      "entry_id": 60410,
+      "field1": "28.3",
+      "field2": "48.1",
+      "field3": "1011.9"
+    }
+  ]
+}

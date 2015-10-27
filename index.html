@@ -55,6 +55,36 @@
         }
     });
 }</code></pre>
+
+        <h3>JSON (JavaScript Object Notation)</h3>
+        <pre><code class="json"></code></pre>
+        <p>Lectura de json en Processing:</p>
+        <pre><code class="java">void readJSON() {
+    String feedUrl = "http://api.thingspeak.com/channels/26840/feed.json";
+    String response[] = loadStrings(feedUrl);
+    JSONObject json = JSONObject.parse(response[0]);
+    JSONArray weather = json.getJSONArray("feeds");
+    JSONObject lastWeather = weather.getJSONObject(weather.size() - 1);
+    println("Temperatura " + lastWeather.getString("field1"));
+    println("Humedad " + lastWeather.getString("field2"));
+    println("Presion " + lastWeather.getString("field3"));
+}</code></pre>
+        <p>Lectura de json en JS:</p>
+        <pre><code class="javascript">function readJSON() {
+    $.ajax({
+        method: "GET",
+        url: "http://api.thingspeak.com/channels/26840/feed.json",
+        dataType: "json",
+        success: function(json_response) {
+            var feed = json_response['feeds'];
+            var last_weather = feed[feed.length-1];
+            var $body = $('body');
+            console.log('Temperatura ' + last_weather['field1']);
+            console.log('Humedad ' + last_weather['field2']);
+            console.log('Presion ' + last_weather['field3']);
+        }
+    });
+}</code></pre>
         <hr>
 
         <h2>Viz Subtes</h2>
