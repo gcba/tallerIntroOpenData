@@ -19,7 +19,7 @@ $(function() {
     function getDataForDay(day) {
         var csv_text;
         $.ajax({
-            url: "../data/subte_julio2014.csv",
+            url: "./data/subte_julio2014.csv",
             method: "GET",
             dataType: "text",
             async: false,
