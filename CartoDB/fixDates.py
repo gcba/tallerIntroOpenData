@@ -1,6 +1,7 @@
 import csv
 import sys
-
+import curses
+stdscr = curses.initscr()
 filename = 'suaci-2015_b.csv'
 if len(sys.argv) > 1:
     filename = sys.argv[1]
@@ -10,11 +11,9 @@ with open(filename, 'r') as csv_file:
     ncsv = '%s_fixed.%s' % (filename.split('.')[0], filename.split('.')[1])
     with open(ncsv, 'w') as fixCSV:
         for row in csv_rows:
-            print row[5],', ', row[5].find('fecha_ingreso')
             time = row[5].split(' ')
             if row[5].find('fecha_ingreso') < 0:
                 s = row[5].split(' ')
-                print s,', ', str(c)
                 year, month, day = time[0].split('-')
                 date = time[1]
                 date = date.split('.')[0]
@@ -23,10 +22,11 @@ with open(filename, 'r') as csv_file:
                 else:
                     hour, mins = date.split(':')
                     sec = '00'
-                time = '%s/%s/%sT%s:%s:%s-03:00' % (year, month, day, hour, mins, sec)
-                print '>> %s ' % time
+                time = '%s/%s/%s, %s:%s:%s' % (year, month, day, hour, mins, sec)
+                stdscr.addstr(0, 0, '>> %s ' % time)
+                stdscr.refresh()
                 c += 1
             else:
-                time = time[0]
-            fixCSV.write('%s,%s,%s,%s,%s,%s,%s,%s\n' % (row[0], row[1], row[2], time, row[4], row[5], row[6], row[7]))
+                time = 'fecha, hora'
+            fixCSV.write('%s,%s,%s,%s,%s,%s,%s,%s\n' % (row[0], row[1], row[2], row[3], row[4], time, row[6], row[7]))
             fixCSV.flush()
