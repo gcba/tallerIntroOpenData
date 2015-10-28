@@ -88,8 +88,24 @@ void draw(){
     if (indiceX > 0 & indiceX < tabla.getRowCount()){
       fill(255);
       textSize(18); 
-      text(tabla.getString(indiceX,0), mouseX, mouseY); // La columna 0 tiene la fecha
+      text(tabla.getString(indiceX,0), mouseX + 10, 30); // La columna 0 tiene la fecha
+      stroke(255);
+      line(mouseX,0,mouseX,380);
     }
+  }
+  
+  if (mouseY < 700 & mouseY > 400){ // Mostrar la hora de los promedios
+    int indiceX = min(mouseX % 180, 168) / 7;
+    fill(255);
+    textSize(18); 
+    if (mouseX < 70){
+     text(str(indiceX) + ":00", mouseX + 10, 420); // La columna 0 tiene la fecha
+    }else{
+     text(str(indiceX) + ":00", mouseX - 60, 420); // La columna 0 tiene la fecha  
+    }
+    stroke(255);
+    line(mouseX,400,mouseX,670);
+   
   }
 //////////////////////////////////////////
 
