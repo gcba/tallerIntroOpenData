@@ -18,15 +18,98 @@
     <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
         <h1>Introducción a datos abiertos y visualización</h1>
         <p>En este taller se trabajará con distintas herramientas digitales para explorar datos y señales
-            en tiempo real. Se abordarán diversos enfoques para su análisis, depuración y representación
-            visual utilizando <a href="https://cartodb.com/">CartoDB</a>, <a href="http://d3js.org/">D3.js</a> y <a href="http://processing.org/">Processing</a>. En el taller intentaremos responder ¿Cómo
+            en tiempo real. Se abordarán diversos enfoques para su análisis</td><td> depuración y representación
+            visual utilizando <a href="https://cartodb.com/">CartoDB</a></td><td> <a href="http://d3js.org/">D3.js</a> y <a href="http://processing.org/">Processing</a>. En el taller intentaremos responder ¿Cómo
             obtener datos? ¿Cuáles son las estrategias apropiadas de análisis según el uso? y ¿Cuáles la
             mejor alternativa para visualizarlos?</p>
 
         <hr>
 
         <h2>Formatos de archivos para compartir datos</h2>
-        <p>Los principales formatos de archivos que usamos para guardar, compartir y analizar datos son csv, xml y json.</p>
+        <p>Los principales formatos de archivos que usamos para guardar</td><td> compartir y analizar datos son csv</td><td> xml y json.</p>
+        <h3>CSV (Comma-Separated Values)</h3>
+        <pre><code class="csv">fecha,hora,Congreso de Tucuman,Juramento,Jose Hernandez,Olleros,Ministro Carranza,Palermo,Plaza Italia,Scalabrini Ortiz,Bulnes,Aguero,Pueyrredon.,Facultad de Medicina,Callao.,Tribunales,9 de julio,Catedral
+2014-07-01,05:00,19,7,3,2,2,8,1,5,2,1,3,4,0,1,1,8
+2014-07-01,05:15,40,6,0,2,2,29,1,2,1,4,1,2,1,3,4,2
+2014-07-01,05:30,38,13,9,5,5,23,4,8,4,7,6,7,0,3,4,5
+2014-07-01,05:45,51,19,14,11,6,17,6,5,7,13,3,8,2,2,9,21
+2014-07-01,06:00,106,25,19,26,26,33,5,15,6,10,6,16,9,1,9,23
+2014-07-01,06:15,197,42,39,31,18,41,20,21,17,22,18,12,20,4,25,28
+2014-07-01,06:30,259,74,67,47,28,82,20,32,37,37,36,19,22,11,29,57
+2014-07-01,06:45,407,97,73,62,47,122,39,64,68,54,27,28,25,10,45,74
+2014-07-01,07:00,733,156,139,116,131,138,63,140,118,106,70,42,53,22,65,84
+2014-07-01,07:15,910,231,201,197,126,193,119,196,174,171,104,69,59,25,81,128
+2014-07-01,07:30,982,288,258,257,178,238,152,221,208,188,124,105,83,50,101,159
+2014-07-01,07:45,1120,337,288,259,166,291,136,256,242,193,111,122,134,65,93,149
+2014-07-01,08:00,1363,442,336,369,258,308,226,277,266,235,102,146,133,66,121,181
+2014-07-01,08:15,1574,526,424,379,268,360,247,363,340,301,96,179,176,89,146,201
+2014-07-01,08:30,1422,513,364,409,292,346,273,381,423,318,99,234,205,107,169,227
+2014-07-01,08:45,1365,442,324,358,247,318,239,405,334,312,231,260,172,154,120,262
+2014-07-01,09:00,1257,395,296,368,295,644,221,375,345,281,277,279,208,153,143,247
+2014-07-01,09:15,1140,370,266,349,250,441,253,339,331,283,276,237,184,151,118,223
+2014-07-01,09:30,971,356,325,272,240,424,208,330,302,290,303,257,228,180,94,254
+2014-07-01,09:45,891,272,233,250,237,358,192,295,276,241,274,276,224,200,96,231
+2014-07-01,10:00,788,259,233,258,191,241,185,282,261,216,211,243,188,222,134,270
+2014-07-01,10:15,658,268,196,250,196,306,178,234,308,194,221,282,207,232,126,330
+2014-07-01,10:30,606,247,202,238,159,290,159,242,272,192,237,297,233,251,112,342
+2014-07-01,10:45,557,227,170,227,164,218,107,202,244,185,218,308,295,206,150,347
+2014-07-01,11:00,545,246,156,194,149,221,138,172,248,167,218,395,283,265,148,427
+2014-07-01,11:15,516,241,177,221,147,287,123,206,272,176,253,403,331,264,169,454</code></pre>
+        <div class="csv-table">
+            <table>
+                <tr><td>fecha</td><td>hora</td><td>Congreso de Tucuman</td><td>Juramento</td><td>Jose Hernandez</td><td>Olleros</td><td>Ministro Carranza</td><td>Palermo</td><td>Plaza Italia</td><td>Scalabrini Ortiz</td><td>Bulnes</td><td>Aguero</td><td>Pueyrredon.</td><td>Facultad de Medicina</td><td>Callao.</td><td>Tribunales</td><td>9 de julio</td><td>Catedral</td></tr>
+                <tr><td>2014-07-01</td><td>05:00</td><td>19</td><td>7</td><td>3</td><td>2</td><td>2</td><td>8</td><td>1</td><td>5</td><td>2</td><td>1</td><td>3</td><td>4</td><td>0</td><td>1</td><td>1</td><td>8</td></tr>
+                <tr><td>2014-07-01</td><td>05:15</td><td>40</td><td>6</td><td>0</td><td>2</td><td>2</td><td>29</td><td>1</td><td>2</td><td>1</td><td>4</td><td>1</td><td>2</td><td>1</td><td>3</td><td>4</td><td>2</td></tr>
+                <tr><td>2014-07-01</td><td>05:30</td><td>38</td><td>13</td><td>9</td><td>5</td><td>5</td><td>23</td><td>4</td><td>8</td><td>4</td><td>7</td><td>6</td><td>7</td><td>0</td><td>3</td><td>4</td><td>5</td></tr>
+                <tr><td>2014-07-01</td><td>05:45</td><td>51</td><td>19</td><td>14</td><td>11</td><td>6</td><td>17</td><td>6</td><td>5</td><td>7</td><td>13</td><td>3</td><td>8</td><td>2</td><td>2</td><td>9</td><td>21</td></tr>
+                <tr><td>2014-07-01</td><td>06:00</td><td>106</td><td>25</td><td>19</td><td>26</td><td>26</td><td>33</td><td>5</td><td>15</td><td>6</td><td>10</td><td>6</td><td>16</td><td>9</td><td>1</td><td>9</td><td>23</td></tr>
+                <tr><td>2014-07-01</td><td>06:15</td><td>197</td><td>42</td><td>39</td><td>31</td><td>18</td><td>41</td><td>20</td><td>21</td><td>17</td><td>22</td><td>18</td><td>12</td><td>20</td><td>4</td><td>25</td><td>28</td></tr>
+                <tr><td>2014-07-01</td><td>06:30</td><td>259</td><td>74</td><td>67</td><td>47</td><td>28</td><td>82</td><td>20</td><td>32</td><td>37</td><td>37</td><td>36</td><td>19</td><td>22</td><td>11</td><td>29</td><td>57</td></tr>
+                <tr><td>2014-07-01</td><td>06:45</td><td>407</td><td>97</td><td>73</td><td>62</td><td>47</td><td>122</td><td>39</td><td>64</td><td>68</td><td>54</td><td>27</td><td>28</td><td>25</td><td>10</td><td>45</td><td>74</td></tr>
+                <tr><td>2014-07-01</td><td>07:00</td><td>733</td><td>156</td><td>139</td><td>116</td><td>131</td><td>138</td><td>63</td><td>140</td><td>118</td><td>106</td><td>70</td><td>42</td><td>53</td><td>22</td><td>65</td><td>84</td></tr>
+                <tr><td>2014-07-01</td><td>07:15</td><td>910</td><td>231</td><td>201</td><td>197</td><td>126</td><td>193</td><td>119</td><td>196</td><td>174</td><td>171</td><td>104</td><td>69</td><td>59</td><td>25</td><td>81</td><td>128</td></tr>
+                <tr><td>2014-07-01</td><td>07:30</td><td>982</td><td>288</td><td>258</td><td>257</td><td>178</td><td>238</td><td>152</td><td>221</td><td>208</td><td>188</td><td>124</td><td>105</td><td>83</td><td>50</td><td>101</td><td>159</td></tr>
+                <tr><td>2014-07-01</td><td>07:45</td><td>1120</td><td>337</td><td>288</td><td>259</td><td>166</td><td>291</td><td>136</td><td>256</td><td>242</td><td>193</td><td>111</td><td>122</td><td>134</td><td>65</td><td>93</td><td>149</td></tr>
+                <tr><td>2014-07-01</td><td>08:00</td><td>1363</td><td>442</td><td>336</td><td>369</td><td>258</td><td>308</td><td>226</td><td>277</td><td>266</td><td>235</td><td>102</td><td>146</td><td>133</td><td>66</td><td>121</td><td>181</td></tr>
+                <tr><td>2014-07-01</td><td>08:15</td><td>1574</td><td>526</td><td>424</td><td>379</td><td>268</td><td>360</td><td>247</td><td>363</td><td>340</td><td>301</td><td>96</td><td>179</td><td>176</td><td>89</td><td>146</td><td>201</td></tr>
+                <tr><td>2014-07-01</td><td>08:30</td><td>1422</td><td>513</td><td>364</td><td>409</td><td>292</td><td>346</td><td>273</td><td>381</td><td>423</td><td>318</td><td>99</td><td>234</td><td>205</td><td>107</td><td>169</td><td>227</td></tr>
+                <tr><td>2014-07-01</td><td>08:45</td><td>1365</td><td>442</td><td>324</td><td>358</td><td>247</td><td>318</td><td>239</td><td>405</td><td>334</td><td>312</td><td>231</td><td>260</td><td>172</td><td>154</td><td>120</td><td>262</td></tr>
+                <tr><td>2014-07-01</td><td>09:00</td><td>1257</td><td>395</td><td>296</td><td>368</td><td>295</td><td>644</td><td>221</td><td>375</td><td>345</td><td>281</td><td>277</td><td>279</td><td>208</td><td>153</td><td>143</td><td>247</td></tr>
+                <tr><td>2014-07-01</td><td>09:15</td><td>1140</td><td>370</td><td>266</td><td>349</td><td>250</td><td>441</td><td>253</td><td>339</td><td>331</td><td>283</td><td>276</td><td>237</td><td>184</td><td>151</td><td>118</td><td>223</td></tr>
+                <tr><td>2014-07-01</td><td>09:30</td><td>971</td><td>356</td><td>325</td><td>272</td><td>240</td><td>424</td><td>208</td><td>330</td><td>302</td><td>290</td><td>303</td><td>257</td><td>228</td><td>180</td><td>94</td><td>254</td></tr>
+                <tr><td>2014-07-01</td><td>09:45</td><td>891</td><td>272</td><td>233</td><td>250</td><td>237</td><td>358</td><td>192</td><td>295</td><td>276</td><td>241</td><td>274</td><td>276</td><td>224</td><td>200</td><td>96</td><td>231</td></tr>
+                <tr><td>2014-07-01</td><td>10:00</td><td>788</td><td>259</td><td>233</td><td>258</td><td>191</td><td>241</td><td>185</td><td>282</td><td>261</td><td>216</td><td>211</td><td>243</td><td>188</td><td>222</td><td>134</td><td>270</td></tr>
+                <tr><td>2014-07-01</td><td>10:15</td><td>658</td><td>268</td><td>196</td><td>250</td><td>196</td><td>306</td><td>178</td><td>234</td><td>308</td><td>194</td><td>221</td><td>282</td><td>207</td><td>232</td><td>126</td><td>330</td></tr>
+                <tr><td>2014-07-01</td><td>10:30</td><td>606</td><td>247</td><td>202</td><td>238</td><td>159</td><td>290</td><td>159</td><td>242</td><td>272</td><td>192</td><td>237</td><td>297</td><td>233</td><td>251</td><td>112</td><td>342</td></tr>
+                <tr><td>2014-07-01</td><td>10:45</td><td>557</td><td>227</td><td>170</td><td>227</td><td>164</td><td>218</td><td>107</td><td>202</td><td>244</td><td>185</td><td>218</td><td>308</td><td>295</td><td>206</td><td>150</td><td>347</td></tr>
+                <tr><td>2014-07-01</td><td>11:00</td><td>545</td><td>246</td><td>156</td><td>194</td><td>149</td><td>221</td><td>138</td><td>172</td><td>248</td><td>167</td><td>218</td><td>395</td><td>283</td><td>265</td><td>148</td><td>427</td></tr>
+                <tr><td>2014-07-01</td><td>11:15</td><td>516</td><td>241</td><td>177</td><td>221</td><td>147</td><td>287</td><td>123</td><td>206</td><td>272</td><td>176</td><td>253</td><td>403</td><td>331</td><td>264</td><td>169</td><td>454</td></tr>
+
+            </table>
+        </div>
+        <p>Lectura de csv en Processing:</p>
+        <pre><code class="java">void readCSV() {
+    String csvPath = "../../data/subte_julio2014.csv";
+    Table csv = loadTable(csvPath, "header");
+    for (TableRow row : csv.rows()) {
+        String pasajeros_juramento = row.getString("Juramento");
+        println(pasajeros_juramento);
+    }
+}</code></pre>
+        <p>Lectura de csv en JS:</p>
+        <pre><code class="javascript">function readCSV() {
+    $.ajax({
+        method: "GET",
+        url: "../../data/subte_julio2014.csv",
+        dataType: "text",
+        success: function(response) {
+            var rows = csv_text.split(/\r\n|\n/);
+            for (var i=0; i&lt;rows.length; i++) {
+                console.log(rows.split(',')[3]);
+            }
+        }
+    });
+}</code></pre>
         <h3>XML (Extensible Markup Language)</h3>
         <pre><code class="xml"></code></pre>
         <p>Lectura de xml en Processing:</p>
@@ -45,13 +128,13 @@
 }</code></pre>
         <p>Lectura de xml en JS:</p>
         <pre><code class="javascript">function loadXML() {
-    $.get('./data/example.xml', {}, function(response) {
+    $.get('./data/example.xml'</td><td> {}</td><td> function(response) {
         var xml = $(response);
         var stations = xml.find('Estacion');
         for (var i=0; i&lt;stations.length; i++) {
             var name = $(stations[i]).find('EstacionNombre').text();
             var bikes = $(stations[i]).find('BicicletaDisponibles').text();
-            console.log(name, bikes);
+            console.log(name</td><td> bikes);
         }
     });
 }</code></pre>
@@ -72,9 +155,9 @@
         <p>Lectura de json en JS:</p>
         <pre><code class="javascript">function readJSON() {
     $.ajax({
-        method: "GET",
-        url: "http://api.thingspeak.com/channels/26840/feed.json",
-        dataType: "json",
+        method: "GET"</td><td>
+        url: "http://api.thingspeak.com/channels/26840/feed.json"</td><td>
+        dataType: "json"</td><td>
         success: function(json_response) {
             var feed = json_response['feeds'];
             var last_weather = feed[feed.length-1];
@@ -88,7 +171,7 @@
         <hr>
 
         <h2>Viz Subtes</h2>
-        <p>Cantidad de ingresos a estaciones de subte, medidos por giros de molinetes. Fuente <a href="http://data.buenosaires.gob.ar/dataset/subte-viajes-molinetes">data.buenosaires.gob.ar</a></p>
+        <p>Cantidad de ingresos a estaciones de subte</td><td> medidos por giros de molinetes. Fuente <a href="http://data.buenosaires.gob.ar/dataset/subte-viajes-molinetes">data.buenosaires.gob.ar</a></p>
         <p>Domingo 13 de julio de 2014 - Final del mundial de futbol (Argentina vs Alemania)</p>
         <div class="streamgraph-container">
             <div id="streamgraph-mundial"></div>
