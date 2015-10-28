@@ -18,15 +18,15 @@
     <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
         <h1>Introducción a datos abiertos y visualización</h1>
         <p>En este taller se trabajará con distintas herramientas digitales para explorar datos y señales
-            en tiempo real. Se abordarán diversos enfoques para su análisis</td><td> depuración y representación
-            visual utilizando <a href="https://cartodb.com/">CartoDB</a></td><td> <a href="http://d3js.org/">D3.js</a> y <a href="http://processing.org/">Processing</a>. En el taller intentaremos responder ¿Cómo
+            en tiempo real. Se abordarán diversos enfoques para su análisis, depuración y representación
+            visual utilizando <a href="https://cartodb.com/">CartoDB</a>, <a href="http://d3js.org/">D3.js</a> y <a href="http://processing.org/">Processing</a>. En el taller intentaremos responder ¿Cómo
             obtener datos? ¿Cuáles son las estrategias apropiadas de análisis según el uso? y ¿Cuáles la
             mejor alternativa para visualizarlos?</p>
 
         <hr>
 
         <h2>Formatos de archivos para compartir datos</h2>
-        <p>Los principales formatos de archivos que usamos para guardar</td><td> compartir y analizar datos son csv</td><td> xml y json.</p>
+        <p>Los principales formatos de archivos que usamos para guardar, compartir y analizar datos son csv, xml y json.</p>
         <h3>CSV (Comma-Separated Values)</h3>
         <pre><code class="csv">fecha,hora,Congreso de Tucuman,Juramento,Jose Hernandez,Olleros,Ministro Carranza,Palermo,Plaza Italia,Scalabrini Ortiz,Bulnes,Aguero,Pueyrredon.,Facultad de Medicina,Callao.,Tribunales,9 de julio,Catedral
 2014-07-01,05:00,19,7,3,2,2,8,1,5,2,1,3,4,0,1,1,8
@@ -128,13 +128,13 @@
 }</code></pre>
         <p>Lectura de xml en JS:</p>
         <pre><code class="javascript">function loadXML() {
-    $.get('./data/example.xml'</td><td> {}</td><td> function(response) {
+    $.get('./data/example.xml', {}, function(response) {
         var xml = $(response);
         var stations = xml.find('Estacion');
         for (var i=0; i&lt;stations.length; i++) {
             var name = $(stations[i]).find('EstacionNombre').text();
             var bikes = $(stations[i]).find('BicicletaDisponibles').text();
-            console.log(name</td><td> bikes);
+            console.log(name, bikes);
         }
     });
 }</code></pre>
@@ -155,9 +155,9 @@
         <p>Lectura de json en JS:</p>
         <pre><code class="javascript">function readJSON() {
     $.ajax({
-        method: "GET"</td><td>
-        url: "http://api.thingspeak.com/channels/26840/feed.json"</td><td>
-        dataType: "json"</td><td>
+        method: "GET",
+        url: "http://api.thingspeak.com/channels/26840/feed.json",
+        dataType: "json",
         success: function(json_response) {
             var feed = json_response['feeds'];
             var last_weather = feed[feed.length-1];
@@ -171,7 +171,7 @@
         <hr>
 
         <h2>Viz Subtes</h2>
-        <p>Cantidad de ingresos a estaciones de subte</td><td> medidos por giros de molinetes. Fuente <a href="http://data.buenosaires.gob.ar/dataset/subte-viajes-molinetes">data.buenosaires.gob.ar</a></p>
+        <p>Cantidad de ingresos a estaciones de subte, medidos por giros de molinetes. Fuente <a href="http://data.buenosaires.gob.ar/dataset/subte-viajes-molinetes">data.buenosaires.gob.ar</a></p>
         <p>Domingo 13 de julio de 2014 - Final del mundial de futbol (Argentina vs Alemania)</p>
         <div class="streamgraph-container">
             <div id="streamgraph-mundial"></div>
