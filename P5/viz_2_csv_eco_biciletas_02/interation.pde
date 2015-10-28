@@ -1,7 +1,0 @@
-void keyPressed(){
-
-}
-
-void mousePressed(){
-
-}
