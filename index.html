@@ -211,6 +211,28 @@ for (int i = start; i&lt;start+width; i++) {
 }</code></pre>
         <img src="./img/analisis_3.png" class="countit">
         <hr>
+        <h2>Ecobicis</h2>
+        <p>Disponibilidad de ecobicis</p>
+        <pre><code class="java">XML[] getStations() {
+    String ecobiciUrl = "http://recursos-data.buenosaires.gob.ar/ckan2/ecobici/estado-ecobici.xml";
+    String response[] = loadStrings(ecobiciUrl);
+    XML xml = parseXML(response[0]);
+    return xml.getChild("soap:Body").getChild("BicicletasWSResponse").getChild("BicicletasWSResult").getChild("Bicicletas").getChild("Estaciones").getChildren("Estacion");
+}</code></pre>
+        <img src="./img/bicis_1.png" class="bicis">
+        <p>Viajes de ecobicis entre las distintas estaciones.</p>
+        <pre><code class="java">void loadTravels() {
+    Table stTable = loadTable("recBicis1d.csv", "header");
+    for (TableRow row : stTable.rows ()) {
+        int idOrigen  = row.getInt("origenestacionid");
+        int idDestino = row.getInt("destinoestacionid");
+        Estacion tEst = getStationById(idOrigen);
+        timeStamp startUseAt = new timeStamp(row.getString("origenfecha"));
+        viajes.add(new bTravel(idOrigen, idDestino, useTime));
+    }
+}</code></pre>
+        <img src="./img/bicis_2.png" class="bicis">
+        <hr>
         <h2>Viz Subtes</h2>
         <p>Cantidad de ingresos a estaciones de subte, medidos por giros de molinetes. Fuente <a href="http://data.buenosaires.gob.ar/dataset/subte-viajes-molinetes">data.buenosaires.gob.ar</a>, streamgraph hecho con D3</p>
         <p>Domingo 13 de julio de 2014 - Final del mundial de futbol (Argentina vs Alemania)</p>
