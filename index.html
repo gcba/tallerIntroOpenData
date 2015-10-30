@@ -170,7 +170,47 @@
     });
 }</code></pre>
         <hr>
+        <h2>Conteo de vehiculos</h2>
+        <p>Cantidad de vehiculos que pasaron por la interseccion de C. Pellegrini y Peron del 21/05 al 31/07</p>
+        <pre><code class="java">Table tabla = loadTable("Dump Count.it . 21-5 al 31-7.csv");
+for (int i = start; i&lt;start+width; i++) {
+    int punto1 = 720 - tabla.getInt(i,1)/escala - offset;
+    int punto2 = 720 - tabla.getInt(i+1,1)/escala - offset;
+    line(i - start , punto1, i - start +1, punto2);
+}</code></pre>
+        <img src="./img/analisis_1.png" class="countit">
+        <p>Promediando cada punto con una ventana local de datos para eliminar ruidos</p>
+        <pre><code class="java">for (int i = 0 ; i < tabla.getRowCount()/10; i++) {
+    int promedio1 = 0;
+    int promedio2 = 0;
+    for (int j = 0; j < 5 ; j++) {  // Promediamos cada 10 datos
+        promedio1 = promedio1 + tabla.getInt(i*10 + j,1);
+        promedio2 = promedio2 + tabla.getInt((i+1)*10 + j,1);
+    }
+    promedio1 = promedio1 / 5;
+    promedio2 = promedio2 / 5;
+    int punto1 = 720 - promedio1/escala - offset;
+    int punto2 = 720 - promedio2/escala - offset;
+    line(i, punto1, i + 1, punto2);
+}</code></pre>
+        <img src="./img/analisis_2.png" class="countit">
+        <p>Calculando los promedios para los distintos dias</p>
+        <pre><code class="java">for (int i = 0 ; i < tabla.getRowCount()/pasoPromedio - 1; i++) {
+    int tempPromedio = 0;
+    for (int j = 0; j < pasoPromedio ; j++) {
+        int indice = i*pasoPromedio + j;
+        tempPromedio = tempPromedio + tabla.getInt(indice,1);
 
+        int dia = tabla.getInt(indice, 2);
+        int hora = tabla.getInt(indice, 3);
+        sumasPorHora[dia][hora] += tabla.getInt(i*pasoPromedio +j,1);
+        nPorHora[dia][hora] += 1;
+    }
+    tempPromedio = tempPromedio / pasoPromedio;
+    promedios = append(promedios, tempPromedio);
+}</code></pre>
+        <img src="./img/analisis_3.png" class="countit">
+        <hr>
         <h2>Viz Subtes</h2>
         <p>Cantidad de ingresos a estaciones de subte, medidos por giros de molinetes. Fuente <a href="http://data.buenosaires.gob.ar/dataset/subte-viajes-molinetes">data.buenosaires.gob.ar</a>, streamgraph hecho con D3</p>
         <p>Domingo 13 de julio de 2014 - Final del mundial de futbol (Argentina vs Alemania)</p>
