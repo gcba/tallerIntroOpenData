@@ -9,7 +9,6 @@ $(function() {
     }
 
     function segmentByHours(csv_rows) {
-        console.log(csv_rows);
         var count = [];
         for (var day=0; day<7; day++) {
             for (var hour=0; hour<24; hour++) {
