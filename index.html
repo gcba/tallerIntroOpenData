@@ -5,6 +5,7 @@
     <title>Taller Intro Open Data</title>
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
     <link href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/styles/default.min.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="./css/style.css" rel="stylesheet">
     <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
@@ -29,6 +30,7 @@
         <h2>Formatos de archivos para compartir datos</h2>
         <p>Los principales formatos de archivos que usamos para guardar, compartir y analizar datos son csv, xml y json.</p>
         <h3>CSV (Comma-Separated Values)</h3>
+        <p>Ej: entradas a estaciones de subte (conteo de molinetes) - julio 2014 <a href="./data/subte_julio2014.csv" target="_blank"><i class="fa fa-external-link"></i></a></p>
         <pre><code class="csv">fecha,hora,Congreso de Tucuman,Juramento,Jose Hernandez,Olleros,Ministro Carranza,Palermo,Plaza Italia,Scalabrini Ortiz,Bulnes,Aguero,Pueyrredon.,Facultad de Medicina,Callao.,Tribunales,9 de julio,Catedral
 2014-07-01,05:00,19,7,3,2,2,8,1,5,2,1,3,4,0,1,1,8
 2014-07-01,05:15,40,6,0,2,2,29,1,2,1,4,1,2,1,3,4,2
@@ -88,7 +90,7 @@
 
             </table>
         </div>
-        <p>Lectura de csv en Processing:</p>
+        <p>Lectura de csv en Processing <a href="./ejemplos/01_leer_csv_processing/leer_csv.pde"><i class="fa fa-external-link"></i></a></p>
         <pre><code class="java">void readCSV() {
     String csvPath = "../../data/subte_julio2014.csv";
     Table csv = loadTable(csvPath, "header");
@@ -97,7 +99,7 @@
         println(pasajeros_juramento);
     }
 }</code></pre>
-        <p>Lectura de csv en JS:</p>
+        <p>Lectura de csv en JS <a href="./ejemplos/02_leer_csv_js/index.html"><i class="fa fa-external-link"></i></a></p>
         <pre><code class="javascript">function readCSV() {
     $.ajax({
         method: "GET",
@@ -113,7 +115,7 @@
 }</code></pre>
         <h3>XML (Extensible Markup Language)</h3>
         <pre><code class="xml"></code></pre>
-        <p>Lectura de xml en Processing:</p>
+        <p>Lectura de xml en Processing <a href="./ejemplos/03_leer_xml_processing/leer_xml.pde"><i class="fa fa-external-link"></i></a></p>
         <pre><code class="java">void getStations() {
     String ecobiciUrl = "http://recursos-data.buenosaires.gob.ar/ckan2/ecobici/estado-ecobici.xml";
     String response[] = loadStrings(ecobiciUrl);
@@ -127,7 +129,7 @@
         println(name + " " + availableBikes);
     }
 }</code></pre>
-        <p>Lectura de xml en JS:</p>
+        <p>Lectura de xml en JS <a href="./ejemplos/04_leer_xml_js/index.html"><i class="fa fa-external-link"></i></a></p>
         <pre><code class="javascript">function loadXML() {
     $.get('./data/example.xml', {}, function(response) {
         var xml = $(response);
@@ -142,7 +144,7 @@
 
         <h3>JSON (JavaScript Object Notation)</h3>
         <pre><code class="json"></code></pre>
-        <p>Lectura de json en Processing:</p>
+        <p>Lectura de json en Processing <a href="./ejemplos/05_leer_json_processing/leer_json.pde"><i class="fa fa-external-link"></i></a></p>
         <pre><code class="java">void readJSON() {
     String feedUrl = "http://api.thingspeak.com/channels/26840/feed.json";
     String response[] = loadStrings(feedUrl);
@@ -153,7 +155,7 @@
     println("Humedad " + lastWeather.getString("field2"));
     println("Presion " + lastWeather.getString("field3"));
 }</code></pre>
-        <p>Lectura de json en JS:</p>
+        <p>Lectura de json en JS <a href="./ejemplos/07_leer_json_js/index.html"><i class="fa fa-external-link"></i></a></p>
         <pre><code class="javascript">function readJSON() {
     $.ajax({
         method: "GET",
@@ -178,6 +180,7 @@ for (int i = start; i&lt;start+width; i++) {
     int punto2 = 720 - tabla.getInt(i+1,1)/escala - offset;
     line(i - start , punto1, i - start +1, punto2);
 }</code></pre>
+        <p>Ejemplo 1 <a href="./ejemplos/08_countIT/analisis1/analisis1.pde"><i class="fa fa-external-link"></i></a></p>
         <img src="./img/analisis_1.png" class="countit">
         <p>Promediando cada punto con una ventana local de datos para eliminar ruidos</p>
         <pre><code class="java">for (int i = 0 ; i < tabla.getRowCount()/10; i++) {
@@ -193,6 +196,7 @@ for (int i = start; i&lt;start+width; i++) {
     int punto2 = 720 - promedio2/escala - offset;
     line(i, punto1, i + 1, punto2);
 }</code></pre>
+        <p>Ejemplo 2 <a href="./ejemplos/08_countIT/analisis2/analisis2.pde"><i class="fa fa-external-link"></i></a></p>
         <img src="./img/analisis_2.png" class="countit">
         <p>Calculando los promedios para los distintos dias</p>
         <pre><code class="java">for (int i = 0 ; i < tabla.getRowCount()/pasoPromedio - 1; i++) {
@@ -209,10 +213,11 @@ for (int i = start; i&lt;start+width; i++) {
     tempPromedio = tempPromedio / pasoPromedio;
     promedios = append(promedios, tempPromedio);
 }</code></pre>
+        <p>Ejemplo 3 <a href="./ejemplos/08_countIT/analisis3/analisis3.pde"><i class="fa fa-external-link"></i></a></p>
         <img src="./img/analisis_3.png" class="countit">
         <hr>
         <h2>Ecobicis</h2>
-        <p>Disponibilidad de ecobicis</p>
+        <p>Disponibilidad de ecobicis <a href="./ejemplos/09_availableBikes_pde/availableBikes_pde.pde"><i class="fa fa-external-link"></i></a></p>
         <pre><code class="java">XML[] getStations() {
     String ecobiciUrl = "http://recursos-data.buenosaires.gob.ar/ckan2/ecobici/estado-ecobici.xml";
     String response[] = loadStrings(ecobiciUrl);
@@ -220,7 +225,7 @@ for (int i = start; i&lt;start+width; i++) {
     return xml.getChild("soap:Body").getChild("BicicletasWSResponse").getChild("BicicletasWSResult").getChild("Bicicletas").getChild("Estaciones").getChildren("Estacion");
 }</code></pre>
         <img src="./img/bicis_1.png" class="bicis">
-        <p>Viajes de ecobicis entre las distintas estaciones.</p>
+        <p>Viajes de ecobicis entre las distintas estaciones. <a href="./ejemplos/10_ecoBikesTravels/ecoBikesTravels.pde"><i class="fa fa-external-link"></i></a></p>
         <pre><code class="java">void loadTravels() {
     Table stTable = loadTable("recBicis1d.csv", "header");
     for (TableRow row : stTable.rows ()) {
@@ -234,7 +239,7 @@ for (int i = start; i&lt;start+width; i++) {
         <img src="./img/bicis_2.png" class="bicis">
         <hr>
         <h2>Viz Subtes</h2>
-        <p>Cantidad de ingresos a estaciones de subte, medidos por giros de molinetes. Fuente <a href="http://data.buenosaires.gob.ar/dataset/subte-viajes-molinetes">data.buenosaires.gob.ar</a>, streamgraph hecho con D3</p>
+        <p>Cantidad de ingresos a estaciones de subte, medidos por giros de molinetes. Fuente <a href="http://data.buenosaires.gob.ar/dataset/subte-viajes-molinetes">data.buenosaires.gob.ar</a>, streamgraph hecho con D3 (ej codigo <a href="./js/subtes_streamgraph.js"><i class="fa fa-external-link"></i></a>)</p>
         <p>Domingo 13 de julio de 2014 - Final del mundial de futbol (Argentina vs Alemania)</p>
         <div class="streamgraph-container">
             <div id="streamgraph-mundial"></div>
@@ -245,7 +250,7 @@ for (int i = start; i&lt;start+width; i++) {
         </div>
         <hr>
         <h2>Reclamos al 147</h2>
-        <p>Cantidad de reclamos al 147 segmentados por dia/hora durante el mes de Enero de 2014. Heatmap hecho con D3</p>
+        <p>Cantidad de reclamos al 147 segmentados por dia/hora durante el mes de Enero de 2014. Fuente <a href="http://data.buenosaires.gob.ar/dataset/sistema-unico-de-atencion-ciudadana">data.buenosaires.gob.ar</a>, heatmap hecho con D3 (ej codigdo <a href="./js/heatmap.js"><i class="fa fa-external-link"></i></a>)</p>
         <div class="heatmap-container">
             <div id="heatmap-147"></div>
         </div>
